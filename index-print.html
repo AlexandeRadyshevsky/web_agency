@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RMA — Reputation Management Agency · webreputation.agency</title>
+  <meta name="description" content="RMA — we remove negative content from Google, forums and social media, then rebuild what people see. Free audit within four working hours." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ============================================================
+       PRINT / PDF overrides
+       ============================================================ */
+    @page { size: A4 portrait; margin: 12mm; }
+
+    @media print {
+      *, *::before, *::after {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        /* jump any animation to its end state, freeze transitions */
+        animation-delay: -99s !important;
+        animation-duration: .001s !important;
+        animation-iteration-count: 1 !important;
+        animation-fill-mode: both !important;
+        animation-play-state: running !important;
+        transition-duration: 0s !important;
+      }
+
+      html, body { background: #04070e !important; }
+      /* keep the cinematic gradient on the page background */
+      body::before { position: absolute !important; height: 100% !important; }
+
+      /* reveal everything that scroll-animates in */
+      .reveal { opacity: 1 !important; transform: none !important; }
+
+      /* drop the live WebGL canvases — they don't rasterize to print */
+      #hero-canvas, #shield-canvas, #globe-canvas { display: none !important; }
+
+      /* fixed/sticky chrome → static or hidden */
+      .nav { position: static !important; background: #070b16 !important; border-bottom: 1px solid rgba(150,170,210,0.18) !important; backdrop-filter: none !important; }
+      .nav-burger, .wa, .lang, .ck-wrap { display: none !important; }
+      .nav-cta { display: inline-flex !important; }
+
+      /* the rotating glow border → static thin outline */
+      .glow-frame::before { animation: none !important; background: #1fb573 !important; opacity: .5 !important; }
+      .glow-frame::after { display: none !important; }
+
+      /* marquee strip → static, wrap so it doesn't clip */
+      .strip { overflow: visible !important; }
+      .strip-track { animation: none !important; width: auto !important; flex-wrap: wrap !important; justify-content: center !important; gap: 6px 0 !important; }
+
+      /* hero: stack so the stats card prints below the copy */
+      .hero { padding-top: 24px !important; min-height: 0 !important; }
+      .hero-grid { display: block !important; }
+      .hero-stats { margin-top: 28px !important; max-width: 100% !important; }
+      .hero::after { display: none !important; }
+
+      /* tighten section vertical rhythm for paper */
+      .section { padding-block: 34px !important; }
+
+      /* page-break control */
+      section { break-inside: avoid-page; }
+      #problem, #process, #about, #why, #contact { break-before: page; }
+      .problem-card, .step, .why-item, .case-stat, .hero-stats, .form-card { break-inside: avoid; }
+      .section-head { break-after: avoid; }
+      .footer { break-before: page; }
+
+      /* make sure dark cards keep their fills on paper */
+      .hero-stats, .problem-card, .step, .why-item, .case-stat, .form-card, .problem-foot, .strip { box-shadow: 0 0 0 1px rgba(150,170,210,0.18) inset !important; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React + Babel runtime (pinned) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- Three.js (global THREE) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" crossorigin="anonymous"></script>
+
+  <!-- App modules -->
+  <script type="text/babel" src="src/i18n.jsx"></script>
+  <script type="text/babel" src="src/three-scenes.jsx"></script>
+  <script type="text/babel" src="src/components.jsx"></script>
+  <script type="text/babel" src="src/sections.jsx"></script>
+  <script type="text/babel" src="src/App.jsx"></script>
+
+  <!-- Auto-print once React has mounted, scroll-reveals forced visible, and fonts are ready -->
+  <script type="text/babel">
+    (function () {
+      function revealAll() {
+        document.querySelectorAll(".reveal").forEach((el) => el.classList.add("in"));
+      }
+      function whenMounted(cb) {
+        const root = document.getElementById("root");
+        let tries = 0;
+        const iv = setInterval(() => {
+          tries++;
+          if ((root && root.children.length > 0) || tries > 120) { clearInterval(iv); cb(); }
+        }, 50);
+      }
+      whenMounted(function () {
+        revealAll();
+        const go = () => { revealAll(); setTimeout(() => window.print(), 500); };
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(() => setTimeout(go, 200));
+        } else {
+          setTimeout(go, 700);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

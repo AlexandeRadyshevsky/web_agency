@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ТЗ для SEO — webreputation.agency (RMA)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#10151f; --ink-2:#3d4555; --ink-3:#6b7488; --line:#e3e7ee; --line-2:#cdd4df;
+    --bg:#ffffff; --bg-soft:#f6f8fb; --bg-soft-2:#eef2f8;
+    --navy:#0c2340; --accent:#0f8a54; --accent-soft:#e7f5ee; --accent-line:#bfe3d0;
+    --amber:#9a6a00; --amber-soft:#fdf3df; --red:#b3261e; --red-soft:#fbeae9;
+    --mono:'IBM Plex Mono',ui-monospace,monospace; --disp:'Space Grotesk',sans-serif; --body:'Manrope',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{-webkit-text-size-adjust:100%;}
+  body{font-family:var(--body);color:var(--ink);background:var(--bg-soft-2);line-height:1.62;font-size:15px;-webkit-font-smoothing:antialiased;}
+  .page{max-width:880px;margin:0 auto;background:var(--bg);}
+  .pad{padding:clamp(28px,6vw,76px);}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  h1,h2,h3,h4{font-family:var(--disp);letter-spacing:-0.01em;line-height:1.15;color:var(--navy);}
+  strong{font-weight:700;color:var(--ink);}
+  code{font-family:var(--mono);font-size:0.86em;background:var(--bg-soft-2);padding:1px 6px;border-radius:4px;color:var(--navy);border:1px solid var(--line);}
+  .mono{font-family:var(--mono);}
+
+  /* ---- cover ---- */
+  .cover{background:linear-gradient(155deg,#0c2340,#071a31 60%,#04101f);color:#fff;position:relative;overflow:hidden;}
+  .cover::after{content:"";position:absolute;inset:0;background:radial-gradient(680px 360px at 88% -8%,rgba(15,138,84,.34),transparent 60%),radial-gradient(560px 420px at -5% 20%,rgba(40,90,200,.26),transparent 60%);pointer-events:none;}
+  .cover .pad{position:relative;z-index:1;}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#6fe6ab;display:flex;align-items:center;gap:10px;}
+  .kicker::before{content:"";width:30px;height:1px;background:#6fe6ab;}
+  .cover h1{color:#fff;font-size:clamp(2rem,5.4vw,3.3rem);font-weight:700;margin:22px 0 14px;}
+  .cover h1 em{font-style:normal;color:#6fe6ab;}
+  .cover .sub{color:#b9c4d6;font-size:1.06rem;max-width:54ch;}
+  .cover-meta{display:flex;flex-wrap:wrap;gap:10px 14px;margin-top:34px;}
+  .cover-meta span{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:#cdd9e8;border:1px solid rgba(255,255,255,.2);padding:7px 12px;border-radius:999px;}
+
+  /* ---- generic ---- */
+  section{border-top:1px solid var(--line);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:500;}
+  .num{font-family:var(--mono);color:var(--ink-3);font-weight:500;}
+  h2{font-size:clamp(1.45rem,3.2vw,2rem);font-weight:700;margin:14px 0 8px;}
+  h3{font-size:1.18rem;font-weight:600;margin:30px 0 10px;color:var(--navy);}
+  h4{font-size:1rem;font-weight:600;margin:20px 0 6px;}
+  p{margin:10px 0;color:var(--ink-2);text-wrap:pretty;}
+  p.lead{font-size:1.08rem;color:var(--ink);max-width:62ch;}
+  ul,ol{margin:12px 0 12px 2px;padding-left:20px;color:var(--ink-2);}
+  li{margin:7px 0;}
+  li::marker{color:var(--accent);}
+  .tight li{margin:4px 0;}
+
+  /* TOC */
+  .toc{background:var(--bg-soft);}
+  .toc ol{list-style:none;padding:0;margin:18px 0 0;counter-reset:t;column-count:2;column-gap:38px;}
+  .toc li{break-inside:avoid;margin:0;border-bottom:1px solid var(--line);}
+  .toc a{display:flex;gap:12px;align-items:baseline;padding:11px 2px;color:var(--ink);}
+  .toc a:hover{text-decoration:none;color:var(--accent);}
+  .toc .tn{font-family:var(--mono);font-size:12px;color:var(--accent);min-width:24px;}
+
+  /* callouts */
+  .box{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:18px 0;background:var(--bg-soft);}
+  .box h4{margin-top:0;}
+  .crit{background:var(--red-soft);border-color:#f0c7c4;}
+  .crit .tag{color:var(--red);}
+  .warn{background:var(--amber-soft);border-color:#f0dcae;}
+  .warn .tag{color:var(--amber);}
+  .ok{background:var(--accent-soft);border-color:var(--accent-line);}
+  .ok .tag{color:var(--accent);}
+  .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;display:inline-block;margin-bottom:6px;}
+
+  /* tables */
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13.5px;}
+  th,td{text-align:left;padding:10px 12px;border:1px solid var(--line);vertical-align:top;}
+  th{background:var(--navy);color:#fff;font-family:var(--disp);font-weight:600;font-size:12.5px;letter-spacing:.02em;}
+  tbody tr:nth-child(even){background:var(--bg-soft);}
+  td .mono{font-size:12.5px;color:var(--navy);}
+  .kw{color:var(--navy);font-weight:600;}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0;}
+  @media(max-width:640px){.grid2{grid-template-columns:1fr;} .toc ol{column-count:1;}}
+  .card{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:#fff;}
+  .card .eyebrow{margin-bottom:8px;}
+
+  .kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0;}
+  @media(max-width:640px){.kpi{grid-template-columns:1fr 1fr;}}
+  .kpi .c{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--bg-soft);}
+  .kpi .v{font-family:var(--disp);font-weight:700;font-size:1.5rem;color:var(--accent);}
+  .kpi .l{font-size:12px;color:var(--ink-3);margin-top:4px;}
+
+  pre{background:var(--navy);color:#dfe8f2;border-radius:10px;padding:16px 18px;overflow:auto;font-family:var(--mono);font-size:12.5px;line-height:1.55;margin:14px 0;}
+  pre .k{color:#6fe6ab;} pre .s{color:#ffd479;} pre .c{color:#7d8aa0;}
+
+  .foot{background:var(--navy);color:#9fb0c6;font-family:var(--mono);font-size:12px;}
+  .foot .pad{padding-top:34px;padding-bottom:34px;}
+  .foot b{color:#fff;font-weight:600;}
+
+  @media print{
+    body{background:#fff;font-size:11.5px;}
+    .page{max-width:none;}
+    .pad{padding:30px 34px;}
+    section{break-inside:avoid;}
+    .cover{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    th{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    a{color:var(--ink);}
+    .no-print{display:none;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ COVER ============ -->
+  <header class="cover">
+    <div class="pad">
+      <div class="kicker">Техническое задание · SEO</div>
+      <h1>Вывод сайта <em>webreputation.agency</em> в топ поисковой выдачи</h1>
+      <p class="sub">Полное ТЗ для SEO-специалиста: семантика, техническая база, многоязычность, структурированные данные, контент и E-E-A-T для ниши управления онлайн-репутацией (ORM).</p>
+      <div class="cover-meta">
+        <span>Проект: RMA / Domino</span>
+        <span>Домен: webreputation.agency</span>
+        <span>Рынки: IT (осн.) · EN (интер.)</span>
+        <span>Версия 1.0 · июнь 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ TOC ============ -->
+  <section class="toc">
+    <div class="pad">
+      <div class="eyebrow">Содержание</div>
+      <ol>
+        <li><a href="#s0"><span class="tn">00</span><span>О проекте и контекст ниши</span></a></li>
+        <li><a href="#s1"><span class="tn">01</span><span>Цели, KPI и горизонт</span></a></li>
+        <li><a href="#s2"><span class="tn">02</span><span>Техническая база (критично)</span></a></li>
+        <li><a href="#s3"><span class="tn">03</span><span>Core Web Vitals и скорость</span></a></li>
+        <li><a href="#s4"><span class="tn">04</span><span>Семантическое ядро и кластеры</span></a></li>
+        <li><a href="#s5"><span class="tn">05</span><span>Архитектура и структура страниц</span></a></li>
+        <li><a href="#s6"><span class="tn">06</span><span>On-page и мета-разметка</span></a></li>
+        <li><a href="#s7"><span class="tn">07</span><span>Многоязычность и hreflang</span></a></li>
+        <li><a href="#s8"><span class="tn">08</span><span>Структурированные данные (Schema)</span></a></li>
+        <li><a href="#s9"><span class="tn">09</span><span>Контент-стратегия</span></a></li>
+        <li><a href="#s10"><span class="tn">10</span><span>E-E-A-T и YMYL</span></a></li>
+        <li><a href="#s11"><span class="tn">11</span><span>Локальное SEO</span></a></li>
+        <li><a href="#s12"><span class="tn">12</span><span>Ссылочный профиль</span></a></li>
+        <li><a href="#s13"><span class="tn">13</span><span>Аналитика и отслеживание</span></a></li>
+        <li><a href="#s14"><span class="tn">14</span><span>Что сдать (deliverables) и сроки</span></a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 00 ============ -->
+  <section id="s0">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">00</span> · Контекст</div>
+      <h2>О проекте и нише</h2>
+      <p class="lead">RMA — агентство управления онлайн-репутацией (ORM), принадлежит Attolini Agency. Удаление негативного контента из Google, форумов и соцсетей, деиндексация прессы, право на забвение, управление отзывами (Trustpilot, Google Reviews), юридическое сопровождение. Основной рынок — Италия; интернациональный трафик — на английском.</p>
+      <p>Сейчас сайт — один длинный лендинг на двух языках (EN по умолчанию, IT). Ниша относится к чувствительной (репутация + юридические/деловые решения), близка к <strong>YMYL</strong>, поэтому Google предъявляет к ней повышенные требования по экспертности и доверию. Это нужно учитывать в каждом разделе ТЗ.</p>
+      <div class="box warn">
+        <span class="tag">Важно для исполнителя</span>
+        <p style="margin:0;">Не использовать любые «серые» приёмы (PBN, накрутка поведенческих, клоакинг, спам-ссылки). Для агентства, которое само торгует репутацией, чистота методов — часть продукта. Любая санкция = репутационный удар по клиенту.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 01 ============ -->
+  <section id="s1">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">01</span> · Цели</div>
+      <h2>Цели, KPI и горизонт</h2>
+      <p>Бизнес-цель — заявки на бесплатный аудит репутации с органического поиска по Италии и интернационально. SEO-метрики ниже подчинены этой цели; рост трафика без роста заявок не считается результатом.</p>
+      <div class="kpi">
+        <div class="c"><div class="v">ТОП-10</div><div class="l">по ядру коммерческих запросов (IT) за 6–9 мес.</div></div>
+        <div class="c"><div class="v">×3–5</div><div class="l">органический небрендовый трафик за 12 мес.</div></div>
+        <div class="c"><div class="v">90+</div><div class="l">PSI mobile (после техправок)</div></div>
+        <div class="c"><div class="v">CR ≥ 3%</div><div class="l">из органики в заявку на аудит</div></div>
+      </div>
+      <h4>Что фиксируем на старте (baseline)</h4>
+      <ul class="tight">
+        <li>Текущие позиции по ядру (IT + EN), видимость в Search Console, индексируемые URL.</li>
+        <li>Core Web Vitals (полевые + лабораторные), доля проиндексированного контента.</li>
+        <li>Ссылочный профиль и упоминания бренда, текущая конверсия лендинга.</li>
+      </ul>
+      <p>Отчётность — ежемесячно: позиции по кластерам, трафик/заявки, выполненные задачи, план на месяц. KPI пересматриваем после закрытия технических блокеров (раздел 02).</p>
+    </div>
+  </section>
+
+  <!-- ============ 02 ============ -->
+  <section id="s2">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">02</span> · Фундамент</div>
+      <h2>Техническая база</h2>
+      <div class="box crit">
+        <span class="tag">Блокер №1 — решить до всего остального</span>
+        <h4 style="margin-top:0;">Контент рендерится на клиенте через Babel + React из CDN</h4>
+        <p>Сейчас весь текст и разметка появляются только после загрузки и исполнения JavaScript (трансляция JSX в браузере). В исходном HTML, который получает поисковый робот, контента практически нет. Для коммерческого продвижения это недопустимо: индексация будет неполной и нестабильной, скорость — низкой.</p>
+        <p style="margin-bottom:0;"><strong>Требуется:</strong> перевести проект на серверный рендеринг или пререндеринг — <strong>SSR/SSG</strong> (Next.js / Astro / Vite SSR) либо как минимум статический prerender каждой языковой версии, чтобы готовый HTML с текстом, заголовками и мета-тегами отдавался сразу, без выполнения JS. Babel-в-браузере из продакшена убрать полностью (собирать бандл заранее).</p>
+      </div>
+      <h4>Базовый технический чек-лист</h4>
+      <ul class="tight">
+        <li><strong>HTTPS</strong> на всём сайте, 301-редирект http → https и склейка зеркал (www/без-www — выбрать одно).</li>
+        <li><strong>robots.txt</strong> с указанием на sitemap; закрыть служебное, не закрывать CSS/JS.</li>
+        <li><strong>XML-sitemap</strong> со всеми каноническими URL и языковыми версиями; автообновление; submit в GSC.</li>
+        <li><strong>Канонические теги</strong> (<code>rel="canonical"</code>) на каждой странице; единый формат URL (нижний регистр, без лишних слешей и параметров).</li>
+        <li><strong>Человеко-понятные ЧПУ:</strong> <code>/it/rimozione-recensioni-google/</code>, <code>/en/remove-negative-content/</code>.</li>
+        <li>Корректные коды ответа: 404 для несуществующего, 301 для переездов; никаких soft-404.</li>
+        <li><strong>Доступная семантика:</strong> один <code>&lt;h1&gt;</code> на страницу, логичная иерархия H2/H3, alt у изображений, осмысленные anchor-тексты.</li>
+        <li>Лендинг и SEO-страницы должны открываться без JS (контент в HTML). Three.js-визуал — прогрессивное улучшение, не несущее текста.</li>
+      </ul>
+      <div class="box ok">
+        <span class="tag">Подсказка по реализации</span>
+        <p style="margin:0;">Three.js-фон и интерактив оставляем как декоративный слой поверх статического HTML. Для робота и для отключённого JS должен оставаться полный текстовый контент. Любой важный текст НЕ должен рисоваться внутри canvas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 ============ -->
+  <section id="s3">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">03</span> · Скорость</div>
+      <h2>Core Web Vitals и производительность</h2>
+      <p>После перехода на SSR/SSG довести полевые показатели до «зелёных» на мобайле — это и фактор ранжирования, и фактор конверсии.</p>
+      <table>
+        <thead><tr><th>Метрика</th><th>Цель</th><th>Что делать</th></tr></thead>
+        <tbody>
+          <tr><td>LCP</td><td>&lt; 2.5 c</td><td>Критический CSS инлайн, preload основного шрифта, оптимизация hero, отложенная инициализация Three.js.</td></tr>
+          <tr><td>INP</td><td>&lt; 200 мс</td><td>Минимизировать JS на главном потоке; рендер canvas в requestAnimationFrame с паузой вне вьюпорта (уже реализовано — сохранить).</td></tr>
+          <tr><td>CLS</td><td>&lt; 0.1</td><td>Резервировать размеры под медиа и canvas, <code>font-display:swap</code>, без сдвигов от поздней подгрузки.</td></tr>
+        </tbody>
+      </table>
+      <h4>Прочее</h4>
+      <ul class="tight">
+        <li>Изображения в <strong>WebP/AVIF</strong>, <code>loading="lazy"</code> для второго экрана и ниже, корректные <code>width/height</code>.</li>
+        <li>Шрифты: <code>preconnect</code> + <code>font-display:swap</code>, подключать только используемые начертания.</li>
+        <li>Three.js грузить отложенно (после first paint), гейтить на <code>prefers-reduced-motion</code> и на слабых устройствах давать статичный фон.</li>
+        <li>Кэширование статики, HTTP/2+, gzip/brotli, CDN для ассетов.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 04 ============ -->
+  <section id="s4">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">04</span> · Семантика</div>
+      <h2>Семантическое ядро и кластеры</h2>
+      <p>Собрать полное ядро под IT и EN рынки (Ahrefs/Semrush + Search Console + Suggest), кластеризовать по интенту и закрепить за страницами. Ниже — опорные кластеры; исполнитель расширяет их и добавляет частотности/конкуренцию.</p>
+
+      <h3>Италия (приоритет)</h3>
+      <table>
+        <thead><tr><th>Кластер</th><th>Опорные запросы</th><th>Интент → страница</th></tr></thead>
+        <tbody>
+          <tr><td class="kw">Удаление отзывов</td><td>rimuovere recensioni negative google · cancellare recensioni diffamatorie · eliminare recensione google</td><td>Коммерч. → услуга «Рекензии»</td></tr>
+          <tr><td class="kw">Право на забвение</td><td>diritto all'oblio · deindicizzazione google · rimuovere notizie da google</td><td>Коммерч. → услуга «Diritto all'oblio»</td></tr>
+          <tr><td class="kw">Удаление статей</td><td>rimuovere articolo diffamatorio · cancellare articolo di giornale online</td><td>Коммерч. → услуга «Stampa»</td></tr>
+          <tr><td class="kw">ORM / общий</td><td>gestione reputazione online · reputazione online aziendale · agenzia web reputation</td><td>Коммерч. → главная / хаб услуг</td></tr>
+          <tr><td class="kw">Suggest / autocomplete</td><td>rimuovere suggerimenti google · ricerche correlate negative google</td><td>Коммерч. → услуга «Suggerimenti»</td></tr>
+          <tr><td class="kw">Информационный</td><td>come cancellare recensioni false · quanto costa rimuovere una recensione · è legale...</td><td>Инфо → блог</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Интернационально (EN)</h3>
+      <table>
+        <thead><tr><th>Кластер</th><th>Опорные запросы</th><th>Интент → страница</th></tr></thead>
+        <tbody>
+          <tr><td class="kw">ORM</td><td>online reputation management · ORM agency · reputation management services</td><td>Коммерч. → главная (EN)</td></tr>
+          <tr><td class="kw">Removal</td><td>remove negative google reviews · remove defamatory content · delete news article from google</td><td>Коммерч. → услуги (EN)</td></tr>
+          <tr><td class="kw">Right to be forgotten</td><td>right to be forgotten · google de-indexing service</td><td>Коммерч. → услуга (EN)</td></tr>
+          <tr><td class="kw">Информационный</td><td>how to remove negative content from google · how much does it cost...</td><td>Инфо → блог (EN)</td></tr>
+        </tbody>
+      </table>
+      <div class="box">
+        <span class="tag mono" style="color:var(--accent)">Принцип</span>
+        <p style="margin:0;">Один интент = одна страница. Не каннибализировать запросы между лендингом и услугами. Брендовые («web reputation agency», «RMA») — отдельно отслеживаем, по ним должны быть в ТОП-1.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 ============ -->
+  <section id="s5">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">05</span> · Архитектура</div>
+      <h2>Структура сайта</h2>
+      <p>Текущий одностраничник не закрывает ядро: под каждый коммерческий кластер нужна посадочная. Предлагаемая структура (на каждый язык в своём каталоге <code>/it/</code>, <code>/en/</code>):</p>
+      <div class="grid2">
+        <div class="card">
+          <div class="eyebrow">Коммерческие посадочные</div>
+          <ul class="tight">
+            <li>Главная (хаб ORM)</li>
+            <li>Удаление отзывов Google / Trustpilot</li>
+            <li>Право на забвение / деиндексация</li>
+            <li>Удаление статей и прессы</li>
+            <li>Негативные подсказки Google</li>
+            <li>Юридическое сопровождение</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Поддержка и доверие</div>
+          <ul class="tight">
+            <li>О компании / команда (E-E-A-T)</li>
+            <li>Кейсы / результаты (анонимизированные)</li>
+            <li>Блог (информационные кластеры)</li>
+            <li>FAQ (под FAQPage-разметку)</li>
+            <li>Контакты + локальная страница (Milano)</li>
+            <li>Privacy / Cookie / правовые</li>
+          </ul>
+        </div>
+      </div>
+      <ul class="tight">
+        <li>Глубина вложенности — не более 3 кликов от главной; сквозная перелинковка хаб ↔ услуги ↔ блог.</li>
+        <li>Хлебные крошки с разметкой <code>BreadcrumbList</code>.</li>
+        <li>Контекстные внутренние ссылки из блога на коммерческие посадочные (с осмысленными анкорами).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 06 ============ -->
+  <section id="s6">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">06</span> · On-page</div>
+      <h2>On-page и мета-разметка</h2>
+      <table>
+        <thead><tr><th>Элемент</th><th>Правило</th></tr></thead>
+        <tbody>
+          <tr><td>Title</td><td>До ~60 знаков, главный запрос в начале, бренд в конце. Уникальный на каждой странице. Пример: <span class="mono">Rimuovere recensioni negative da Google — RMA</span></td></tr>
+          <tr><td>Meta description</td><td>~150 знаков, выгода + призыв (бесплатный аудит, ответ за 4 часа). Не для ранжирования, но для CTR.</td></tr>
+          <tr><td>H1</td><td>Один на страницу, содержит основной запрос, не дублирует Title дословно.</td></tr>
+          <tr><td>H2/H3</td><td>Подзапросы и LSI; структура отвечает на интент и под featured snippet.</td></tr>
+          <tr><td>URL</td><td>Короткий ЧПУ с ключом на языке страницы; без дат и параметров.</td></tr>
+          <tr><td>Изображения</td><td>Осмысленные имена файлов и <code>alt</code> с ключом по делу (без спама).</td></tr>
+          <tr><td>OG / Twitter</td><td>Open Graph + Twitter Card на каждую страницу для корректного шеринга.</td></tr>
+        </tbody>
+      </table>
+      <p>Текст посадочных — экспертный, по существу, закрывает интент и возражения (стоимость, сроки, законность, конфиденциальность). Объём — по конкурентам в выдаче, без «воды».</p>
+    </div>
+  </section>
+
+  <!-- ============ 07 ============ -->
+  <section id="s7">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">07</span> · i18n</div>
+      <h2>Многоязычность и hreflang</h2>
+      <p>Сейчас язык переключается на клиенте через localStorage — для SEO это невидимо. Нужны <strong>отдельные индексируемые URL</strong> на каждый язык и корректный hreflang.</p>
+      <ul class="tight">
+        <li>Языковые версии в каталогах: <code>/it/...</code> и <code>/en/...</code> (или поддомены — выбрать одну схему).</li>
+        <li>На каждой странице — взаимные <code>hreflang</code> + <code>x-default</code>:</li>
+      </ul>
+      <pre><span class="c">&lt;!-- на странице услуги --&gt;</span>
+&lt;link rel="alternate" <span class="k">hreflang</span>=<span class="s">"it"</span> href=<span class="s">"https://webreputation.agency/it/rimozione-recensioni/"</span>&gt;
+&lt;link rel="alternate" <span class="k">hreflang</span>=<span class="s">"en"</span> href=<span class="s">"https://webreputation.agency/en/review-removal/"</span>&gt;
+&lt;link rel="alternate" <span class="k">hreflang</span>=<span class="s">"x-default"</span> href=<span class="s">"https://webreputation.agency/en/review-removal/"</span>&gt;</pre>
+      <ul class="tight">
+        <li>Контент реально переведён (не машинно «как есть»); метаданные тоже локализованы.</li>
+        <li>Переключатель языка — обычные <code>&lt;a href&gt;</code> на соответствующие URL, а не JS-замена текста.</li>
+        <li>Канониклы указывают на ту же языковую версию, не кросс-язычно.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 08 ============ -->
+  <section id="s8">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">08</span> · Schema.org</div>
+      <h2>Структурированные данные</h2>
+      <p>Разметка JSON-LD на релевантных страницах. Минимальный набор:</p>
+      <ul class="tight">
+        <li><strong>Organization</strong> (+ <strong>LocalBusiness</strong> для Milano): название, лого, адрес, контакты, <code>sameAs</code> на соцсети.</li>
+        <li><strong>Service</strong> — на каждой посадочной услуги (тип услуги, область, провайдер).</li>
+        <li><strong>FAQPage</strong> — на FAQ и блоках вопросов посадочных (шанс на rich-результат).</li>
+        <li><strong>BreadcrumbList</strong> — на всех вложенных страницах.</li>
+        <li><strong>Article</strong> — на статьях блога (автор, дата, издатель).</li>
+      </ul>
+      <div class="box warn">
+        <span class="tag">Осторожно с отзывами</span>
+        <p style="margin:0;">Разметку <code>Review</code> / <code>AggregateRating</code> (звёзды 4.9 и т.п.) использовать только если рейтинг подтверждён реальными отзывами на сайте и соответствует правилам Google. Самоназначенные звёзды — риск ручной санкции. Внешний рейтинг (Trustpilot) размечать нельзя.</p>
+      </div>
+      <pre><span class="c">// пример Organization (фрагмент)</span>
+{
+  <span class="k">"@context"</span>: <span class="s">"https://schema.org"</span>,
+  <span class="k">"@type"</span>: <span class="s">"ProfessionalService"</span>,
+  <span class="k">"name"</span>: <span class="s">"RMA — Reputation Management Agency"</span>,
+  <span class="k">"url"</span>: <span class="s">"https://webreputation.agency/"</span>,
+  <span class="k">"areaServed"</span>: [<span class="s">"IT"</span>, <span class="s">"EU"</span>],
+  <span class="k">"sameAs"</span>: [<span class="s">"https://..."</span>]
+}</pre>
+      <p>После внедрения — валидация в Rich Results Test и мониторинг отчёта «Улучшения» в Search Console.</p>
+    </div>
+  </section>
+
+  <!-- ============ 09 ============ -->
+  <section id="s9">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">09</span> · Контент</div>
+      <h2>Контент-стратегия</h2>
+      <p>Под информационные кластеры — блог, который перехватывает аудиторию на ранней стадии («можно ли удалить отзыв», «сколько стоит», «законно ли») и ведёт на коммерческие посадочные.</p>
+      <h4>Темы-опоры (IT, далее перевод на EN)</h4>
+      <ul class="tight">
+        <li>Как удалить ложный отзыв с Google: что реально, что нет.</li>
+        <li>Право на забвение в ЕС: как работает деиндексация на практике.</li>
+        <li>Сколько стоит удаление негатива и от чего зависит цена.</li>
+        <li>Что делать, если о компании вышла негативная статья.</li>
+        <li>Негативные подсказки Google: почему появляются и как убрать.</li>
+      </ul>
+      <p>Формат — экспертные материалы с авторством, ответами под featured snippet и FAQ-блоком. Регулярность и приоритет тем — по потенциалу трафика и близости к деньгам. Периодически обновлять старые материалы (content refresh).</p>
+    </div>
+  </section>
+
+  <!-- ============ 10 ============ -->
+  <section id="s10">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">10</span> · Доверие</div>
+      <h2>E-E-A-T и YMYL</h2>
+      <p>Ниша затрагивает деловую репутацию и юридические вопросы — Google оценивает опыт, экспертность, авторитет и доверие особенно строго. Сигналы доверия — приоритет, не «по остаточному».</p>
+      <ul class="tight">
+        <li>Страница «О компании» с реальной командой, опытом, юр-специализацией, годами на рынке.</li>
+        <li>Авторство статей с экспертными профилями (опыт в ORM/праве).</li>
+        <li>Анонимизированные кейсы и измеримые результаты; реальные отзывы клиентов.</li>
+        <li>Прозрачные контакты, юр-реквизиты, P.IVA, физический адрес, политика конфиденциальности и cookie (баннер согласия уже реализован).</li>
+        <li>Внешние упоминания бренда в авторитетных СМИ/каталогах (PR, не спам-ссылки).</li>
+        <li>Чёткое раскрытие методов и гарантий, без преувеличений и обещаний «100% за день».</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 11 ============ -->
+  <section id="s11">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">11</span> · Local</div>
+      <h2>Локальное SEO</h2>
+      <ul class="tight">
+        <li>Оформить и оптимизировать <strong>Google Business Profile</strong> (категория, услуги, описание, фото, регулярные посты).</li>
+        <li>Единые <strong>NAP</strong> (название, адрес, телефон) на сайте и во всех каталогах.</li>
+        <li>Локальные и отраслевые каталоги Италии; <code>LocalBusiness</code>-разметка с гео.</li>
+        <li>Локальная посадочная (Milano) при наличии офиса; сбор реальных отзывов в профиль.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 12 ============ -->
+  <section id="s12">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">12</span> · Links</div>
+      <h2>Ссылочный профиль</h2>
+      <p>Качество строго важнее количества — для репутационного агентства токсичный профиль недопустим.</p>
+      <ul class="tight">
+        <li>Цифровой PR и экспертные комментарии в СМИ по теме репутации/права (естественные ссылки и упоминания).</li>
+        <li>Отраслевые каталоги, профильные ассоциации, гостевые экспертные публикации.</li>
+        <li>Разнообразие анкоров (бренд / безанкорные / по запросу) в естественной пропорции.</li>
+        <li>Регулярный аудит профиля, отклонение спамных доноров при необходимости.</li>
+        <li><strong>Запрещено:</strong> покупка ссылок пачками, PBN, биржи низкого качества, спам-комментарии.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 13 ============ -->
+  <section id="s13">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">13</span> · Analytics</div>
+      <h2>Аналитика и отслеживание</h2>
+      <ul class="tight">
+        <li><strong>Google Search Console</strong> и <strong>GA4</strong> на всех языковых версиях; связать между собой.</li>
+        <li>Цели/события: отправка формы аудита, клик по WhatsApp, клик по телефону/почте.</li>
+        <li>Учитывать согласие на cookie (баннер уже есть) — аналитику грузить по согласию (Consent Mode).</li>
+        <li>Отслеживание позиций по кластерам (Ahrefs/Semrush), отчёт по Core Web Vitals.</li>
+        <li>Ежемесячный дашборд: трафик, позиции, заявки, выполнено/план.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 14 ============ -->
+  <section id="s14">
+    <div class="pad">
+      <div class="eyebrow"><span class="num">14</span> · Deliverables</div>
+      <h2>Что сдать и в каком порядке</h2>
+      <table>
+        <thead><tr><th>Этап</th><th>Результат</th><th>Срок*</th></tr></thead>
+        <tbody>
+          <tr><td>0. Аудит + baseline</td><td>Техаудит, фиксация позиций/трафика/CWV, список блокеров</td><td>1–2 нед.</td></tr>
+          <tr><td>1. Тех. фундамент</td><td>SSR/пререндер, индексируемые языковые URL, sitemap, robots, каноникл, hreflang</td><td>2–4 нед.</td></tr>
+          <tr><td>2. Скорость</td><td>Core Web Vitals в «зелёной» зоне на мобайле</td><td>паралл.</td></tr>
+          <tr><td>3. Семантика + структура</td><td>Ядро (IT/EN), карта посадочных, ТЗ на тексты</td><td>2–3 нед.</td></tr>
+          <tr><td>4. On-page + Schema</td><td>Мета, заголовки, JSON-LD, перелинковка</td><td>3–4 нед.</td></tr>
+          <tr><td>5. Контент</td><td>Посадочные услуг + блог по графику</td><td>постоянно</td></tr>
+          <tr><td>6. Off-page + Local</td><td>GBP, PR/ссылки, каталоги</td><td>постоянно</td></tr>
+          <tr><td>7. Отчётность</td><td>Ежемесячный отчёт по KPI и план</td><td>ежемес.</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:12.5px;color:var(--ink-3);">* Ориентир; уточняется по итогам аудита. Этап 1 — обязательное условие, без него остальное не даёт эффекта.</p>
+      <div class="box ok">
+        <span class="tag">Главный приоритет</span>
+        <p style="margin:0;">Сначала — серверный рендеринг и индексируемые языковые URL (разделы 02 и 07). Это снимает потолок, в который иначе упрётся любое продвижение. Всё остальное наращивается поверх.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="pad">
+      <b>ТЗ для SEO — webreputation.agency (RMA)</b><br/>
+      Подготовлено для передачи подрядчику · Версия 1.0 · июнь 2026<br/>
+      Вопросы по технической части (SSR/пререндер, hreflang, Schema) согласовать с разработкой до старта работ.
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

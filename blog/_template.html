@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  HOW TO PUBLISH A NEW ARTICLE  —  4 steps, no admin panel needed
+  ============================================================
+
+  1. COPY this file. Name the copy with your article's "slug"
+     (lowercase, words joined by hyphens, no spaces/accents):
+        blog/how-to-remove-fake-reviews.html
+
+  2. EDIT the parts marked  <!-- EDIT -->  below:
+        - <title> and <meta name="description">  (for Google)
+        - the category, date, title and author in the header
+        - write your article inside  <article class="post-body"> ... </article>
+          using normal HTML:  <h2>Heading</h2>  <p>Paragraph</p>
+          <ul><li>list item</li></ul>  <strong>bold</strong>  <a href="...">link</a>
+
+  3. ADD one entry to  blog/posts.json  so it shows up in the list.
+     Copy an existing block and change the fields. The "slug" MUST match
+     the file name (without .html). Keep the JSON valid — every item
+     inside [ ] separated by commas, no trailing comma after the last one.
+
+  4. SAVE and run in the terminal (inside the project folder):
+        git add .
+        git commit -m "new blog post: <your title>"
+        git push
+     Vercel deploys automatically in ~1 minute. Done.
+
+  Tip: to add a cover image, drop the image in  blog/  (e.g. blog/cover-reviews.jpg)
+  and set  "cover": "blog/cover-reviews.jpg"  in posts.json. Leave "" for no cover.
+  ============================================================
+-->
+<html lang="en"><!-- EDIT: set to "it" for an Italian article -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDIT: title shown in the browser tab and on Google -->
+  <title>Article title · RMA — webreputation.agency</title>
+  <!-- EDIT: 1–2 sentence summary Google shows under the title -->
+  <meta name="description" content="Short summary of the article for search engines." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="article" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../blog/article.css" />
+</head>
+<body>
+  <div class="art">
+    <div class="art-top">
+      <a class="doc-back" href="../blog.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg><span>All articles</span></a>
+    </div>
+
+    <header class="art-head">
+      <!-- EDIT: category · date -->
+      <div class="art-meta"><span class="art-cat">Category</span><span class="dot">·</span><time datetime="2026-01-01">1 January 2026</time></div>
+      <!-- EDIT: article title -->
+      <h1>Article title goes here</h1>
+      <!-- EDIT: author (optional) -->
+      <div class="art-byline">By RMA — Web Reputation Agency</div>
+    </header>
+
+    <!-- EDIT: write your article below. Use <h2>, <p>, <ul><li>, <strong>, <a>. -->
+    <article class="post-body">
+      <p class="lede">Open with one strong sentence that states the problem your reader has.</p>
+
+      <h2>A section heading</h2>
+      <p>A normal paragraph. Keep sentences short and concrete. You can make text <strong>bold</strong> or add a <a href="../index.html#contact">link</a>.</p>
+
+      <h2>Another section</h2>
+      <p>Explain the next idea here.</p>
+      <ul>
+        <li>A bullet point.</li>
+        <li>Another bullet point.</li>
+      </ul>
+
+      <blockquote>Use a quote block for a key takeaway.</blockquote>
+
+      <p>Close with what the reader should do next.</p>
+    </article>
+
+    <aside class="art-cta">
+      <div>
+        <h3>Want this handled for you?</h3>
+        <p>Free, confidential audit of your online reputation.</p>
+      </div>
+      <a class="btn btn-primary btn-lg" href="../index.html#contact">Book a free audit</a>
+    </aside>
+  </div>
+</body>
+</html>
