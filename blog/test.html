@@ -1,45 +1,14 @@
 <!DOCTYPE html>
-<!--
-  ============================================================
-  HOW TO PUBLISH A NEW ARTICLE  —  4 steps, no admin panel needed
-  ============================================================
-
-  1. COPY this file. Name the copy with your article's "slug"
-     (lowercase, words joined by hyphens, no spaces/accents):
-        blog/how-to-remove-fake-reviews.html
-
-  2. EDIT the parts marked  <!-- EDIT -->  below:
-        - <title> and <meta name="description">  (for Google)
-        - the category, date, title and author in the header
-        - write your article inside  <article class="post-body"> ... </article>
-          using normal HTML:  <h2>Heading</h2>  <p>Paragraph</p>
-          <ul><li>list item</li></ul>  <strong>bold</strong>  <a href="...">link</a>
-
-  3. ADD one entry to  blog/posts.json  so it shows up in the list.
-     Copy an existing block and change the fields. The "slug" MUST match
-     the file name (without .html). Keep the JSON valid — every item
-     inside [ ] separated by commas, no trailing comma after the last one.
-
-  4. SAVE and run in the terminal (inside the project folder):
-        git add .
-        git commit -m "new blog post: <your title>"
-        git push
-     Vercel deploys automatically in ~1 minute. Done.
-
-  Tip: to add a cover image, drop the image in  blog/  (e.g. blog/cover-reviews.jpg)
-  and set  "cover": "blog/cover-reviews.jpg"  in posts.json. Leave "" for no cover.
-  ============================================================
--->
-<html lang="en"><!-- EDIT: set to "it" for an Italian article -->
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- EDIT: title shown in the browser tab and on Google -->
-  <title>Article title · RMA — webreputation.agency</title>
-  <!-- EDIT: 1–2 sentence summary Google shows under the title -->
-  <meta name="description" content="Short summary of the article for search engines." />
+  <title>How to remove a defamatory Google review · RMA — webreputation.agency</title>
+  <meta name="description" content="Most bad Google reviews stay online because they're reported the wrong way. The order of steps that actually gets a defamatory review removed — and what to do when removal isn't possible." />
   <meta name="robots" content="index,follow" />
   <meta property="og:type" content="article" />
+  <meta property="og:title" content="How to remove a defamatory Google review (and what to do when you can't)" />
+  <meta property="og:description" content="The order of steps that actually gets a defamatory review removed — and what to do when it can't be." />
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="../blog/article.css" />
 </head>
@@ -50,31 +19,35 @@
     </div>
 
     <header class="art-head">
-      <!-- EDIT: category · date -->
-      <div class="art-meta"><span class="art-cat">Category</span><span class="dot">·</span><time datetime="2026-01-01">1 January 2026</time></div>
-      <!-- EDIT: article title -->
-      <h1>Article title goes here</h1>
-      <!-- EDIT: author (optional) -->
+      <div class="art-meta"><span class="art-cat">Reviews</span><span class="dot">·</span><time datetime="2026-07-15">15 July 2026</time></div>
+      <h1>How to remove a defamatory Google review (and what to do when you can't)</h1>
       <div class="art-byline">By RMA — Web Reputation Agency</div>
     </header>
 
-    <!-- EDIT: write your article below. Use <h2>, <p>, <ul><li>, <strong>, <a>. -->
     <article class="post-body">
-      <p class="lede">Open with one strong sentence that states the problem your reader has.</p>
+      <p class="lede">A single one-star review can quietly cost you customers for years. Most stay online for one reason: they were reported the wrong way, once, and then given up on.</p>
 
-      <h2>A section heading</h2>
-      <p>A normal paragraph. Keep sentences short and concrete. You can make text <strong>bold</strong> or add a <a href="../index.html#contact">link</a>.</p>
+      <p>Google does remove reviews — but only when the request matches one of its policies and is backed by the right evidence. Here is the order that works, from cheapest to most serious.</p>
 
-      <h2>Another section</h2>
-      <p>Explain the next idea here.</p>
-      <ul>
-        <li>A bullet point.</li>
-        <li>Another bullet point.</li>
-      </ul>
+      <h2>1. Confirm it actually breaks a policy</h2>
+      <p>Google won't remove a review just because it's negative or unfair. It removes reviews that violate its content rules: fake reviews from people who were never customers, spam, conflicts of interest, hate speech, personal attacks, or content that's off-topic. A calm "the food was cold" stays. "The owner is a fraud who steals money" is a personal accusation you can act on.</p>
+      <p>Read the review closely and write down which specific rule it breaks. That single sentence is what every later step hangs on.</p>
 
-      <blockquote>Use a quote block for a key takeaway.</blockquote>
+      <h2>2. Flag it through the business profile</h2>
+      <p>From your Google Business Profile, report the review and select the reason that matches the policy you identified. This is free and sometimes enough. It is also slow and often ignored on the first pass — so treat it as the opening move, not the whole game.</p>
 
-      <p>Close with what the reader should do next.</p>
+      <h2>3. Escalate to Google support with evidence</h2>
+      <p>If flagging goes nowhere, open a support case and make it easy to say yes. Attach proof: that the reviewer was never a client, that the claim is false, screenshots, dates, order numbers. Reference the exact policy by name. A reviewer who left the same attack on five unrelated businesses is a pattern worth documenting — it's often the fastest path to removal.</p>
+
+      <blockquote>The request that gets actioned isn't the angriest one. It's the one that hands Google a clear policy violation and the evidence to prove it.</blockquote>
+
+      <h2>4. Use the legal route when the claim is false</h2>
+      <p>When a review states something untrue as fact and damages you, this becomes a legal matter, not a support ticket. A formal notice to the reviewer or a court-backed request to the platform carries far more weight than a flag. This is where most people stall on their own — and where specialised help pays for itself.</p>
+
+      <h2>When it genuinely can't be removed</h2>
+      <p>Some reviews are negative, honest opinion. Those won't come down, and chasing them wastes energy. The move then isn't removal — it's <strong>dilution</strong>: steadily earning recent, genuine positive reviews so the old one sinks down the page and stops defining you. One bad review among forty recent good ones barely registers.</p>
+
+      <p>Reputation is rarely one dramatic fix. It's the right step, in the right order, repeated until the search result matches who you actually are.</p>
     </article>
 
     <aside class="art-cta">
