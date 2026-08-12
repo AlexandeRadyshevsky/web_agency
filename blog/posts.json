@@ -14,19 +14,4 @@
       "it": "La maggior parte delle recensioni negative resta online perché vengono segnalate nel modo sbagliato. Ecco l'ordine che funziona davvero."
     }
   }
-  {
-    "slug": "test",
-    "date": "2026-07-14",
-    "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
-    "cover": "",
-    "title": {
-      "en": "test)",
-      "it": "test)"
-    },
-    "excerpt": {
-      "en": "Mtest2",
-      "it": "test"
-    }
-  }
 ]
