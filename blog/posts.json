@@ -13,5 +13,200 @@
       "en": "Most bad reviews stay online because people report them the wrong way. Here is the order that actually works.",
       "it": "La maggior parte delle recensioni negative resta online perché vengono segnalate nel modo sbagliato. Ecco l'ordine che funziona davvero."
     }
+  },
+  {
+    "slug": "why-people-believe-negative-reviews-more-positive-ones",
+    "date": "2026-08-10",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "Why people believe negative reviews more than positive ones",
+      "it": "Perché le persone credono di più alle recensioni negative che a quelle positive"
+    },
+    "excerpt": {
+      "en": "Negativity bias makes one-star feedback stick longer in customers’ minds. Here’s how it works and what businesses can do about it.",
+      "it": "Il bias di negatività fa sì che un feedback a una stella resti più a lungo nella mente dei clienti. Ecco come funziona e cosa possono fare le aziende."
+    }
+  },
+  {
+    "slug": "7-signs-reputational-attack-being-prepared-against-your-business",
+    "date": "2026-08-11",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "7 signs a reputational attack is being prepared against your business",
+      "it": "7 segnali che un attacco reputazionale sta per essere preparato contro la tua azienda"
+    },
+    "excerpt": {
+      "en": "Coordinated negative campaigns rarely start without warning. These early indicators help you spot trouble before it escalates.",
+      "it": "Le campagne negative coordinate raramente partono senza preavviso. Questi indicatori precoci aiutano a individuare i problemi prima che peggiorino."
+    }
+  },
+  {
+    "slug": "online-reputation-doctors-and-clinics-special-risks",
+    "date": "2026-08-12",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Online reputation for doctors and clinics: special risks",
+      "it": "Reputazione online per medici e cliniche: rischi particolari"
+    },
+    "excerpt": {
+      "en": "Healthcare providers face stricter rules and higher stakes when negative reviews appear. What makes medical reputation different.",
+      "it": "I professionisti sanitari affrontano regole più severe e rischi più alti quando compaiono recensioni negative. Cosa rende diversa la reputazione medica."
+    }
+  },
+  {
+    "slug": "how-many-customers-business-loses-due-12-negative-reviews",
+    "date": "2026-08-13",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "How many customers a business loses because of 1–2 negative reviews",
+      "it": "Quanti clienti perde un’azienda a causa di 1–2 recensioni negative"
+    },
+    "excerpt": {
+      "en": "Even a handful of low ratings can quietly reduce conversion rates. The numbers behind the impact of negative feedback.",
+      "it": "Anche un pugno di valutazioni basse può ridurre silenziosamente i tassi di conversione. I numeri dietro l’impatto dei feedback negativi."
+    }
+  },
+  {
+    "slug": "deindexing-google-mechanism-success-cases-and-concrete-limits",
+    "date": "2026-08-14",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Deindexing from Google: mechanism, success cases and concrete limits",
+      "it": "Deindicizzazione da Google: meccanismo, casi di successo e limiti concreti"
+    },
+    "excerpt": {
+      "en": "Removing content from search results is possible in specific situations. How the process works and where it stops.",
+      "it": "Rimuovere contenuti dai risultati di ricerca è possibile in situazioni specifiche. Come funziona il processo e dove si ferma."
+    }
+  },
+  {
+    "slug": "case-study-how-we-raised-trustpilot-rating-22-40",
+    "date": "2026-08-15",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "Case study: how we raised a Trustpilot rating from 2.2 to 4.0",
+      "it": "Case study: come abbiamo alzato una valutazione Trustpilot da 2.2 a 4.0"
+    },
+    "excerpt": {
+      "en": "A practical look at the steps that moved a low Trustpilot score into the safe zone without buying reviews.",
+      "it": "Uno sguardo pratico ai passaggi che hanno portato un punteggio Trustpilot basso nella zona di sicurezza senza acquistare recensioni."
+    }
+  },
+  {
+    "slug": "how-protect-your-companys-online-reputation-problems-arise",
+    "date": "2026-08-16",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "How to protect your company’s online reputation before problems arise",
+      "it": "Come proteggere la reputazione online della tua azienda prima che sorgano problemi"
+    },
+    "excerpt": {
+      "en": "Prevention costs less than crisis response. The core habits that keep public perception stable over time.",
+      "it": "La prevenzione costa meno della gestione di una crisi. Le abitudini fondamentali che mantengono stabile la percezione pubblica nel tempo."
+    }
+  },
+  {
+    "slug": "right-be-forgotten-eu-what-can-really-be-removed-google",
+    "date": "2026-08-17",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Right to be forgotten in the EU: what can really be removed from Google",
+      "it": "Diritto all’oblio in UE: cosa si può davvero rimuovere da Google"
+    },
+    "excerpt": {
+      "en": "The right to be forgotten has clear boundaries. Which personal data requests succeed and which are refused.",
+      "it": "Il diritto all’oblio ha confini chiari. Quali richieste di dati personali vengono accolte e quali rifiutate."
+    }
+  },
+  {
+    "slug": "practical-2026-guide-how-delete-negative-and-fake-reviews-google-maps-italy",
+    "date": "2026-08-18",
+    "lang": "it",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "Practical 2026 guide: how to delete negative and fake reviews on Google Maps in Italy",
+      "it": "Guida pratica 2026: come eliminare recensioni negative e false su Google Maps in Italia"
+    },
+    "excerpt": {
+      "en": "Step-by-step process for Italian businesses dealing with unfair or fake Google Maps reviews in 2026.",
+      "it": "Processo passo dopo passo per le aziende italiane che devono gestire recensioni sleali o false su Google Maps nel 2026."
+    }
+  },
+  {
+    "slug": "what-do-if-former-employee-writes-bad-reviews-about-company",
+    "date": "2026-08-19",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "What to do if a former employee writes bad reviews about the company",
+      "it": "Cosa fare se un ex dipendente scrive recensioni negative sull’azienda"
+    },
+    "excerpt": {
+      "en": "Disgruntled ex-staff can damage public perception. Legal and practical options when the criticism crosses the line.",
+      "it": "Ex collaboratori scontenti possono danneggiare la percezione pubblica. Opzioni legali e pratiche quando la critica supera il limite."
+    }
+  },
+  {
+    "slug": "can-you-delete-fake-reviews-trustpilot-and-how-do-it-legally",
+    "date": "2026-08-20",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "Can you delete fake reviews on Trustpilot and how to do it legally",
+      "it": "Si possono eliminare le recensioni false su Trustpilot e come farlo legalmente"
+    },
+    "excerpt": {
+      "en": "Trustpilot has its own rules for removing inauthentic feedback. The evidence and process that actually work.",
+      "it": "Trustpilot ha regole proprie per rimuovere feedback non autentici. Le prove e il processo che funzionano davvero."
+    }
+  },
+  {
+    "slug": "reputation-vs-advertising-what-matters-more-sales-2026",
+    "date": "2026-08-21",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Reputation vs advertising: what matters more for sales in 2026",
+      "it": "Reputazione vs pubblicità: cosa conta di più per le vendite nel 2026"
+    },
+    "excerpt": {
+      "en": "Paid ads can drive traffic, but trust decides conversion. Why reputation often outperforms pure advertising spend.",
+      "it": "Le ads a pagamento possono portare traffico, ma è la fiducia a decidere la conversione. Perché la reputazione spesso supera la pura spesa pubblicitaria."
+    }
+  },
+  {
+    "slug": "how-protect-reputation-it-company-and-startup",
+    "date": "2026-08-22",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "How to protect the reputation of an IT company and startup",
+      "it": "Come proteggere la reputazione di un’azienda IT e di una startup"
+    },
+    "excerpt": {
+      "en": "Tech firms face fast-moving risks from communities, reviews and investors. Practical steps for each growth stage.",
+      "it": "Le imprese tech affrontano rischi rapidi da community, recensioni e investitori. Passaggi pratici per ogni fase di crescita."
+    }
   }
 ]
