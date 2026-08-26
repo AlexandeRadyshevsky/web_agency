@@ -75,6 +75,21 @@
     }
   },
   {
+    "slug": "negative-google-suggestions-company-name-complaint-scammers-how-remove-them",
+    "date": "2026-08-13",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Negative Google Suggestions (“Company Name + Complaint / Scammers”): How to Remove Them",
+      "it": "Suggerimenti Negativi su Google (“Nome Azienda + Reclamo / Truffa”): Come Rimuoverli"
+    },
+    "excerpt": {
+      "en": "What causes company name + scam suggestions in Google autocomplete and how can you suppress negative search predictions? Detailed guide to Google autocomplete removal, removing negative Google suggestions, and long-term autocomplete reputation management.",
+      "it": "Cosa causa i suggerimenti come 'nome azienda + truffa' nell'autocompletamento di Google e come si possono sopprimere le previsioni di ricerca negative? Guida dettagliata alla rimozione dell'autocompletamento di Google, alla rimozione dei suggerimenti negativi e alla gestione della reputazione a lungo termine."
+    }
+  },
+  {
     "slug": "deindexing-google-mechanism-success-cases-and-concrete-limits",
     "date": "2026-08-14",
     "lang": "en",
@@ -87,6 +102,21 @@
     "excerpt": {
       "en": "Removing content from search results is possible in specific situations. How the process works and where it stops.",
       "it": "Rimuovere contenuti dai risultati di ricerca è possibile in situazioni specifiche. Come funziona il processo e dove si ferma."
+    }
+  },
+  {
+    "slug": "how-properly-respond-negative-review-without-making-situation-worse",
+    "date": "2026-08-14",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "How to Properly Respond to a Negative Review Without Making the Situation Worse",
+      "it": "Come Rispondere Correttamente a una Recensione Negativa Senza Peggiorare la Situazione"
+    },
+    "excerpt": {
+      "en": "Why does a wrong response to a negative review damage reputation more than the original post? Learn detailed stages of managing negative reviews, professional reply templates, tone of voice rules, and the private-message escalation path that protects your reputation.",
+      "it": "Perché una risposta sbagliata a una recensione negativa danneggia la reputazione più del post originale? Scopri le fasi dettagliate per gestire le recensioni negative, i modelli di risposta professionali, le regole del tono di voce e il percorso di escalation tramite messaggio privato per proteggere la tua reputazione."
     }
   },
   {
@@ -207,6 +237,66 @@
     "excerpt": {
       "en": "Tech firms face fast-moving risks from communities, reviews and investors. Practical steps for each growth stage.",
       "it": "Le imprese tech affrontano rischi rapidi da community, recensioni e investitori. Passaggi pratici per ogni fase di crescita."
+    }
+  },
+  {
+    "slug": "reputation-crisis-caused-former-partner-real-case-breakdown",
+    "date": "2026-08-23",
+    "lang": "en",
+    "category": { "en": "Crisis Management", "it": "Gestione delle Crisi" },
+    "cover": "",
+    "title": {
+      "en": "Reputation Crisis Caused by a Former Partner: A Real Case Breakdown",
+      "it": "Crisi di Reputazione Causata da un Ex Socio: Analisi di un Caso Reale"
+    },
+    "excerpt": {
+      "en": "What happens when a business partner launches a negative campaign after separation? This detailed analysis explains the timeline, channels used in the attack, legal vs communication approach, technical cleaning methods, recovery metrics and practical lessons for brand crisis management.",
+      "it": "Cosa succede quando un socio d'affari lancia una campagna negativa dopo la separazione? Questa analisi dettagliata spiega la tempistica della crisi, i canali utilizzati nell'attacco, l'approccio legale vs comunicativo, i metodi di pulizia tecnica, le metriche di recupero e le lezioni pratiche per la gestione della crisi del marchio."
+    }
+  },
+  {
+    "slug": "how-online-reputation-affects-company-value-and-investment-attractiveness",
+    "date": "2026-08-24",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "How Online Reputation Affects Company Value and Investment Attractiveness",
+      "it": "Come la Reputazione Online Influenza il Valore Aziendale e l'Attrattività per gli Investitori"
+    },
+    "excerpt": {
+      "en": "How does online reputation management influence company valuation, brand equity and investment attractiveness during M&A, fundraising and lending? Discover the mechanisms of reputation as an intangible asset, due diligence checks on reputation risk, and practical stages of improving valuation.",
+      "it": "In che modo la gestione della reputazione online influenza la valutazione aziendale, il valore del marchio e l'attrattività per gli investitori in fusioni, raccolta fondi e finanziamenti? Scopri i meccanismi della reputazione come asset immateriale, i controlli di due diligence sul rischio reputazionale e le fasi pratiche per migliorare la valutazione."
+    }
+  },
+  {
+    "slug": "reputation-risks-e-commerce-and-online-stores",
+    "date": "2026-08-25",
+    "lang": "en",
+    "category": { "en": "E-commerce", "it": "E-commerce" },
+    "cover": "",
+    "title": {
+      "en": "Reputation Risks for E-commerce and Online Stores",
+      "it": "Rischi di Reputazione per l'E-commerce e i Negozi Online"
+    },
+    "excerpt": {
+      "en": "What are the main reputation risks for online stores and how does systematic online review management reduce their impact? Detailed explanation of sources of negative feedback, star rating effects, delivery issues, marketplace algorithms and practical stages of e-commerce reputation management.",
+      "it": "Quali sono i principali rischi di reputazione per i negozi online e come la gestione sistematica delle recensioni riduce il loro impatto? Spiegazione dettagliata delle fonti di feedback negativo, effetti delle valutazioni a stelle, problemi di consegna, algoritmi dei marketplace e fasi pratiche per la gestione della reputazione nell'e-commerce."
+    }
+  },
+  {
+    "slug": "difference-between-removal-deindexing-and-ranking-suppression-search-results",
+    "date": "2026-08-26",
+    "lang": "en",
+    "category": { "en": "Reputation Management", "it": "Gestione della Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Difference Between Removal, Deindexing and Ranking Suppression in Search Results",
+      "it": "Differenza tra Rimozione, Deindicizzazione e Soppressione nei Risultati di Ricerca"
+    },
+    "excerpt": {
+      "en": "What is the real difference between full content removal, deindexing and search result suppression? Learn when permanent removal vs deindexing works, how ranking suppression operates, and why a hybrid approach often delivers stronger long-term SERP control.",
+      "it": "Qual è la vera differenza tra rimozione completa dei contenuti, deindicizzazione e soppressione dei risultati di ricerca? Scopri quando funziona la rimozione permanente rispetto alla deindicizzazione, come opera la soppressione del ranking e perché un approccio ibrido spesso offre un controllo SERP a lungo termine più efficace."
     }
   }
 ]
