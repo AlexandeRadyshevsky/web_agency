@@ -298,5 +298,125 @@
       "en": "What is the real difference between full content removal, deindexing and search result suppression? Learn when permanent removal vs deindexing works, how ranking suppression operates, and why a hybrid approach often delivers stronger long-term SERP control.",
       "it": "Qual è la vera differenza tra rimozione completa dei contenuti, deindicizzazione e soppressione dei risultati di ricerca? Scopri quando funziona la rimozione permanente rispetto alla deindicizzazione, come opera la soppressione del ranking e perché un approccio ibrido spesso offre un controllo SERP a lungo termine più efficace."
     }
+  },
+  {
+    "slug": "reputation-risks-for-restaurants-cafes-and-horeca-establishments",
+    "date": "2026-09-01",
+    "lang": "en",
+    "category": { "en": "HoReCa", "it": "HoReCa" },
+    "cover": "",
+    "title": {
+      "en": "Reputation Risks for Restaurants, Cafes and HoReCa Establishments",
+      "it": "Rischi di Reputazione per Ristoranti, Caffè e Strutture HoReCa"
+    },
+    "excerpt": {
+      "en": "What causes HoReCa reputation crisis events and how can restaurants protect guest experience reputation? This detailed guide explains star rating impact, delivery app reviews reputation, seasonal reputation risks, Google Maps restaurant ranking factors, service recovery methods and practical stages of online review management.",
+      "it": "Cosa causa gli eventi di crisi reputazionale nel settore HoReCa e come possono i ristoranti proteggere la reputazione dell'esperienza degli ospiti? Questa guida dettagliata spiega l'impatto delle valutazioni a stelle, la reputazione delle recensioni sulle app di delivery, i rischi stagionali, i fattori di ranking dei ristoranti su Google Maps, i metodi di service recovery e le fasi pratiche della gestione delle recensioni online."
+    }
+  },
+  {
+    "slug": "how-deal-negative-video-reviews-youtube-tiktok-and-instagram-reels",
+    "date": "2026-09-02",
+    "lang": "en",
+    "category": { "en": "Reputation", "it": "Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "How to Deal with Negative Video Reviews on YouTube, TikTok and Instagram Reels",
+      "it": "Come Gestire le Recensioni Video Negative su YouTube, TikTok e Instagram Reels"
+    },
+    "excerpt": {
+      "en": "Discover how negative video content spreads faster than text reviews and what concrete actions reduce its impact. This guide explains platform reporting rules, evidence requirements for rimozione contenuti negativi, reach-limitation methods, counter-content approaches, and legal options available for online defamation removal.",
+      "it": "Scopri come i contenuti video negativi si diffondono più rapidamente delle recensioni testuali e quali azioni concrete riducono il loro impatto. Questa guida spiega le regole di segnalazione delle piattaforme, i requisiti probatori per la rimozione di contenuti negativi, i metodi per limitare la portata, gli approcci di contro-contenuto e le opzioni legali disponibili per la rimozione della diffamazione online."
+    }
+  },
+  {
+    "slug": "platform-liability-third-party-content-what-changed-after-digital-services-act",
+    "date": "2026-09-03",
+    "lang": "en",
+    "category": { "en": "Legal", "it": "Legale" },
+    "cover": "",
+    "title": {
+      "en": "Platform Liability for Third-Party Content: What Changed After the Digital Services Act",
+      "it": "Responsabilità della Piattaforma per Contenuti di Terzi: Cosa è Cambiato Dopo il Digital Services Act"
+    },
+    "excerpt": {
+      "en": "Discover what changed for piattaforma responsabilità and intermediary liability under the Digital Services Act. Learn how notice-and-action procedures, trusted flaggers, right to explanation DSA, and faster takedown mechanisms now support rimozione contenuti online and legal reputation protection across Italy and the EU.",
+      "it": "Scopri cosa è cambiato per la responsabilità della piattaforma e degli intermediari sotto il Digital Services Act. Impara come le procedure di notice-and-action, i trusted flagger, il diritto alla spiegazione DSA e i meccanismi di takedown più rapidi supportano ora la rimozione di contenuti online e la protezione legale della reputazione in Italia e nell'UE."
+    }
+  },
+  {
+    "slug": "how-build-system-collecting-positive-reviews-without-violating-platform-rules",
+    "date": "2026-09-04",
+    "lang": "en",
+    "category": { "en": "Reviews", "it": "Recensioni" },
+    "cover": "",
+    "title": {
+      "en": "How to Build a System for Collecting Positive Reviews Without Violating Platform Rules",
+      "it": "Come Costruire un Sistema per Raccogliere Recensioni Positive Senza Violare le Regole delle Piattaforme"
+    },
+    "excerpt": {
+      "en": "How can companies increase review volume safely while following solicitation policy? This guide explains ethical review generation, post-purchase review flow, review request timing, automated review collection and multi-platform review strategy without review gating or incentivized reviews.",
+      "it": "Come possono le aziende aumentare in sicurezza il volume delle recensioni rispettando le policy di sollecitazione? Questa guida spiega la generazione etica di recensioni, il flusso post-acquisto, i tempi della richiesta, la raccolta automatizzata e la strategia multi-piattaforma senza review gating o recensioni incentivate."
+    }
+  },
+  {
+    "slug": "case-reputation-recovery-after-viral-negative-post-social-media",
+    "date": "2026-09-07",
+    "lang": "en",
+    "category": { "en": "Cases", "it": "Casi" },
+    "cover": "",
+    "title": {
+      "en": "Case: Reputation Recovery After a Viral Negative Post on Social Media",
+      "it": "Caso: Recupero della Reputazione Dopo un Post Negativo Virale sui Social Media"
+    },
+    "excerpt": {
+      "en": "What steps restore trust during an online reputation crisis? This detailed case examines social media crisis management, real-time response methods, content strategy and measurable reputation recovery after a viral negative post.",
+      "it": "Quali passi ripristinano la fiducia durante una crisi di reputazione online? Questo caso dettagliato esamina la gestione della crisi sui social media, i metodi di risposta in tempo reale, la strategia di contenuto e il recupero misurabile della reputazione dopo un post negativo virale."
+    }
+  },
+  {
+    "slug": "how-ai-overviews-and-generative-search-are-changing-online-reputation-management",
+    "date": "2026-09-08",
+    "lang": "en",
+    "category": { "en": "AI & Reputation", "it": "IA e Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "How AI Overviews and Generative Search Are Changing Online Reputation Management",
+      "it": "Come gli AI Overviews e la Ricerca Generativa Stanno Cambiando la Gestione della Reputazione Online"
+    },
+    "excerpt": {
+      "en": "How do Google AI Overview reputation signals and generative AI reputation risks affect brands today? Learn practical steps to monitor AI mentions, fix incorrect AI results, strengthen entity reputation in AI, reduce hallucination reputation damage and adapt ORM for zero-click reputation.",
+      "it": "Come influenzano oggi i brand i segnali di reputazione degli AI Overviews di Google e i rischi reputazionali dell'IA generativa? Scopri i passaggi pratici per monitorare le menzioni AI, correggere i risultati AI errati, rafforzare la reputazione dell'entità nell'IA, ridurre i danni da allucinazione e adattare l'ORM alla reputazione zero-click."
+    }
+  },
+  {
+    "slug": "how-online-reputation-affects-employer-brand-and-employee-hiring",
+    "date": "2026-09-09",
+    "lang": "en",
+    "category": { "en": "Employer Brand", "it": "Employer Brand" },
+    "cover": "",
+    "title": {
+      "en": "How Online Reputation Affects Employer Brand and Employee Hiring",
+      "it": "Come la Reputazione Online Influenza l'Employer Brand e l'Assunzione dei Dipendenti"
+    },
+    "excerpt": {
+      "en": "How does corporate reputation management influence candidate perception and talent acquisition? Discover the link between brand reputation, Glassdoor rating, LinkedIn company reputation and recruitment metrics such as time-to-hire and offer acceptance rate.",
+      "it": "In che modo la gestione della reputazione aziendale influenza la percezione dei candidati e l'acquisizione di talenti? Scopri il legame tra reputazione del marchio, valutazione Glassdoor, reputazione aziendale su LinkedIn e metriche di reclutamento come time-to-hire e tasso di accettazione delle offerte."
+    }
+  },
+  {
+    "slug": "online-reputation-management-orm-service-what-it-includes-how-it-works-and-who-needs-it",
+    "date": "2026-09-10",
+    "lang": "en",
+    "category": { "en": "Reputation Management", "it": "Gestione della Reputazione" },
+    "cover": "",
+    "title": {
+      "en": "Online Reputation Management (ORM) Service: What It Includes, How It Works, and Who Needs It",
+      "it": "Servizio di Gestione della Reputazione Online (ORM): Cosa Include, Come Funziona e Chi ne ha Bisogno"
+    },
+    "excerpt": {
+      "en": "How does online reputation management protect brands and professionals? Discover what a complete ORM service covers, when an agenzia reputazione online is needed, differences from SEO, the full process of gestione reputazione online, and how to choose reliable reputation management solutions.",
+      "it": "Come protegge la gestione della reputazione online i brand e i professionisti? Scopri cosa copre un servizio ORM completo, quando serve un'agenzia di reputazione online, le differenze dalla SEO, l'intero processo di gestione della reputazione online e come scegliere soluzioni affidabili."
+    }
   }
 ]
