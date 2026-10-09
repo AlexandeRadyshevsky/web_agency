@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deindex a Page or Website: Noindex, Robots.txt and Search Console · RMA — webreputation.agency</title>
+  <meta name="description" content="Site owners in Italy who want to deindex a website should rely on noindex rather than robots.txt, and since no Google deindexing request removes a page for good, checking Search Console is essential." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://www.webreputation.agency/blog/deindex-page-or-website-noindex-guide.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="How to Deindex a Page or an Entire Website You Control" />
+  <meta property="og:description" content="Noindex tags, the X-Robots-Tag header, the robots.txt trap, sitemaps and Search Console checks: how to deindex your own pages or website correctly." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../blog/article.css" />
+</head>
+<body>
+  <div class="art">
+    <div class="art-top">
+      <a class="doc-back" href="../blog.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg><span>All articles</span></a>
+    </div>
+
+    <header class="art-head">
+      <div class="art-meta"><span class="art-cat">Removal</span><span class="dot">·</span><time datetime="2026-11-05">5 November 2026</time></div>
+      <h1>How to Deindex a Page or an Entire Website You Control</h1>
+      <div class="art-byline">By RMA — Web Reputation Agency</div>
+    </header>
+
+    <article class="post-body">
+<p class="lede">To deindex a page you control, let Google crawl it and serve a noindex directive, either in a meta robots tag or in the X-Robots-Tag HTTP header; Google drops it at the next crawl. Blocking the page in robots.txt does not deindex it and often keeps it in results longer, while the Search Console Removals tool only hides it temporarily while the real fix takes effect.</p>
+
+<h2>Deindexing versus deleting: choose before you act</h2>
+<p>Deindexing keeps a page online for visitors but removes it from Google's index; deleting removes it for everyone. The choice depends on whether the content still has a purpose on your site.</p>
+<p>Typical candidates for deindexing are thank-you pages, internal search results, filtered category URLs of an online shop, client portals, test pages and old landing pages that still receive direct traffic. Italian companies also deindex pages for privacy reasons, for example an old team page listing former employees or a downloadable PDF with personal data that must stay available to clients but not to search engines. When a page has no reason to exist, deletion with a 404 or 410 status is simpler and permanent.</p>
+
+<h2>How to deindex a page with noindex</h2>
+<p>The reliable way to deindex a page is a noindex instruction that Google can read when it crawls the URL. It works for any page, regardless of how it was indexed or for how long.</p>
+<h3>Meta robots tag</h3>
+<p>For HTML pages, add <code>&lt;meta name="robots" content="noindex"&gt;</code> in the head section. If you only want to exclude Google while allowing other engines, use <code>name="googlebot"</code> instead. Most content management systems offer a per-page setting that writes this tag for you, so check the page source after saving to confirm that it really appears, and that no other plugin or template outputs a conflicting "index" value.</p>
+<h3>X-Robots-Tag header</h3>
+<p>Files such as PDFs, images and spreadsheets have no head section, so the directive must be sent as an HTTP header: <code>X-Robots-Tag: noindex</code>. It is configured on the web server or through the CDN, and it can target a single file, a folder or a file type, which makes it the right tool for document archives and media libraries.</p>
+
+<h2>The robots.txt trap</h2>
+<p>Blocking a URL in robots.txt prevents crawling, not indexing, so Google never sees the noindex and can keep the page in results. This is the most common reason pages stay visible months after an owner believed they were removed.</p>
+<p>A blocked URL that is linked from elsewhere can remain indexed with no description, labelled in Search Console as "Indexed, though blocked by robots.txt". Google also stopped supporting noindex rules written inside robots.txt in 2019, so that old workaround no longer has any effect. The correct order is: remove any robots.txt block on the page, add noindex, wait until Google has recrawled and dropped the URL, and only then, if you want to save crawl resources, add a disallow rule. For pages that must never be crawled from the start, combine the block with password protection rather than relying on robots.txt alone.</p>
+<blockquote>Robots.txt controls what Google may read; noindex controls what Google may show. To remove a page from results, Google must be allowed to read the instruction that asks for removal.</blockquote>
+
+<h2>How to deindex an entire website</h2>
+<p>To deindex a website as a whole, apply noindex at server level or put the whole site behind authentication. The method depends on whether the site must stay accessible to people.</p>
+<ol>
+<li>Verify the domain property in Google Search Console, so you can monitor the process and use the Removals tool if needed.</li>
+<li>For a staging or development copy, protect the whole site with HTTP authentication; Google cannot index content it cannot reach.</li>
+<li>For a public site that should simply leave search, send <code>X-Robots-Tag: noindex</code> on every response from the server configuration.</li>
+<li>For a site being shut down, return 410 for all URLs or, if a new domain replaces it, redirect each page with a 301 to its equivalent.</li>
+<li>Remove the sitemap from Search Console only after most URLs have dropped out, and keep robots.txt open until then.</li>
+</ol>
+<p>The same logic applies to sections of a site. A Rome-based e-commerce shop that wants to remove thousands of filtered URLs, for instance, can apply the header to the relevant URL pattern rather than editing each page.</p>
+
+<h2>Sitemaps, canonicals and internal links</h2>
+<p>Signals elsewhere on the site must agree with the noindex, or Google receives contradictory instructions. Consistency also speeds up the process.</p>
+<p>A sitemap tells Google which URLs you consider important, so pages you want out should eventually leave it. Keeping them listed for a short time with an updated lastmod date can prompt a faster recrawl, after which they should be removed. Avoid pointing a canonical tag from a noindexed page to another page you want indexed: the two signals conflict, and Google may handle them unpredictably. Internal links to deindexed pages are acceptable for users, but navigation menus and footers linking heavily to them suggest the pages matter. For a single important URL, the URL Inspection tool's "Request indexing" button invites Google to recrawl it and notice the noindex sooner.</p>
+
+<h2>Search Console Removals: a temporary bridge</h2>
+<p>There is no permanent Google deindexing request for your own pages: the Removals tool hides a URL or prefix for about six months, and the page returns unless noindex, deletion or protection is in place by then. It is useful when something must disappear immediately, such as personal data exposed by mistake, while the technical fix is rolled out. Our article on <a href="deindexing-google-mechanism-success-cases-and-concrete-limits.html">how deindexing works and where its limits lie</a> explains how Google processes these signals in more depth.</p>
+
+<h2>Verifying deindexation and avoiding common mistakes</h2>
+<p>Confirm the result in Search Console rather than with the site: operator, which gives approximate figures and can show outdated results. The URL Inspection tool reports whether a page is indexed and whether Google detected the noindex; the Page indexing report lists URLs under "Excluded by 'noindex' tag" as they drop out.</p>
+<p>Timing depends on crawl frequency: frequently visited pages can disappear within days, rarely crawled ones may take weeks. Check Bing Webmaster Tools as well, since Bing maintains its own index and also feeds some AI assistants. Errors that most often delay the process include:</p>
+<ul>
+<li>adding noindex and a robots.txt block at the same time;</li>
+<li>launching a new site with the staging "discourage search engines" option still active, which deindexes pages you wanted visible;</li>
+<li>relying on the Removals tool alone and forgetting to fix the page before the six months expire;</li>
+<li>returning a 200 status on a "page not found" template, which Google may keep indexed;</li>
+<li>noindexing pages that rank for the brand without a plan for what will replace them.</li>
+</ul>
+<p>The last point matters for reputation: removing your own weak pages can leave space on page one for third-party results. How deindexing fits alongside removal and suppression is covered in our comparison of <a href="difference-between-removal-deindexing-and-ranking-suppression-search-results.html">removal, deindexing and ranking suppression</a>. If you are unsure which of your pages to deindex and what will take their place, a <a href="../index.html#contact">free confidential audit</a> can review your branded results first.</p>
+    </article>
+
+    <aside class="art-cta">
+      <div>
+        <h3>Want this handled for you?</h3>
+        <p>Free, confidential audit of your online reputation.</p>
+      </div>
+      <a class="btn btn-primary btn-lg" href="../index.html#contact">Book a free audit</a>
+    </aside>
+  </div>
+</body>
+</html>

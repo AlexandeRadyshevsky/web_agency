@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remove a URL from Google: Every Method Compared (Italy 2026) · RMA — webreputation.agency</title>
+  <meta name="description" content="Google URL removal works differently for site owners and third parties, so to remove a page from Google search in Italy you choose between deletion, noindex, Search Console tools and legal requests." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://www.webreputation.agency/blog/remove-url-from-google-all-methods.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="How to Remove a URL from Google: Every Method and When to Use It" />
+  <meta property="og:description" content="Deletion with 404 or 410, noindex, the Search Console Removals tool, Refresh Outdated Content and legal requests: which method removes a URL from Google in each case." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../blog/article.css" />
+</head>
+<body>
+  <div class="art">
+    <div class="art-top">
+      <a class="doc-back" href="../blog.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg><span>All articles</span></a>
+    </div>
+
+    <header class="art-head">
+      <div class="art-meta"><span class="art-cat">Removal</span><span class="dot">·</span><time datetime="2026-10-28">28 October 2026</time></div>
+      <h1>How to Remove a URL from Google: Every Method and When to Use It</h1>
+      <div class="art-byline">By RMA — Web Reputation Agency</div>
+    </header>
+
+    <article class="post-body">
+<p class="lede">To remove a URL from Google permanently, the page must either disappear from the website, be marked noindex, or be removed on legal grounds; Google's own tools only speed up or temporarily hide what happens at the source. The right method depends on one question first: do you control the website, or does someone else?</p>
+
+<h2>Start with who controls the page</h2>
+<p>Website owners have direct, technical methods; everyone else must either persuade the owner or rely on Google's request forms. Mixing the two is the most common reason removal attempts fail. Before choosing a method, check three facts:</p>
+<ul>
+<li>whether you, or someone you can instruct, is a verified owner of the site in Search Console;</li>
+<li>whether the page still exists and which HTTP status it returns today;</li>
+<li>which searches show the result, since some requests remove it only for queries on a person's name.</li>
+</ul>
+<p>If you manage the site, verified in Google Search Console, you can delete the page, block indexing or hide it temporarily within hours. When the page belongs to a newspaper, a forum, a directory or an unknown blogger, Google will act only if the content has already changed at the source or if it breaks the law or Google's policies. Italian businesses often discover this when an old landing page created by a former agency, and a critical article on a local news site, both appear for their brand: the first is a technical task, the second a request to a third party.</p>
+
+<h2>Methods for pages on your own website</h2>
+<p>For a site you control, permanent removal means telling Google, through the page itself, that it should no longer be indexed. Google then drops the URL after its next crawl.</p>
+<h3>Delete the page and return 404 or 410</h3>
+<p>Removing the page so that the server returns a 404 (not found) or 410 (gone) status is the cleanest solution when the content has no reason to exist. A 410 signals a deliberate removal and is often processed slightly faster. Make sure the server does not show a "soft 404", a page saying "not found" while returning a 200 status, because Google may keep it indexed.</p>
+<h3>Keep the page but add noindex</h3>
+<p>When the page must stay available to users, for example a private client area or an old price list, add a noindex directive in the meta robots tag or in the X-Robots-Tag HTTP header. Google must be able to crawl the page to see it, so do not block the same URL in robots.txt; the detailed setup is a separate topic.</p>
+<h3>Redirect or protect</h3>
+<p>A 301 redirect to a relevant, current page transfers users and signals and gradually replaces the old URL in results. Password protection also removes a page from the index, since Google cannot access content behind a login.</p>
+
+<h2>Google Search Console tools: fast but temporary</h2>
+<p>The Removals tool in Search Console hides a URL from Google results for about six months, usually within a day. It is designed for urgent cases, such as personal data published by mistake, and it does not delete anything permanently.</p>
+<p>Only verified owners of the property can use it. During the six months, the page must be deleted, set to noindex or protected; otherwise it reappears when the request expires. The tool can also target a URL prefix, which helps when a whole directory, such as a staging copy of the site, has been indexed by accident. Our explanation of <a href="deindexing-google-mechanism-success-cases-and-concrete-limits.html">how deindexing works and where its limits lie</a> covers what happens to signals and rankings afterwards.</p>
+<blockquote>A Search Console removal is a pause button, not a delete button. If the cause is not fixed at the source within six months, the page returns.</blockquote>
+
+<h2>When the page is on someone else's site</h2>
+<p>For third-party pages, the first step is almost always to obtain a change at the source, because Google reflects the web rather than editing it. Only after that, or in parallel for legal grounds, do Google's forms come into play.</p>
+<h3>Ask the owner or the host</h3>
+<p>A courteous, reasoned request to the site owner, explaining why the content is outdated, inaccurate or harmful, solves more cases than people expect. If the owner is unreachable or uncooperative and the content is unlawful, the hosting provider can be contacted with a notice under the Digital Services Act, which requires hosts to have a notice-and-action mechanism.</p>
+<h3>The Refresh Outdated Content tool</h3>
+<p>Once the owner has deleted the page or changed the text, Google may still show the old version or snippet until it recrawls. Anyone, without owning the site, can submit the URL through Google's Refresh Outdated Content tool to have the result updated or dropped. It works only if the change is already live; it cannot remove a page that still exists unchanged.</p>
+
+<h2>Legal and policy-based removal requests</h2>
+<p>When content stays online but violates rights or Google's policies, Google's legal removal forms allow you to remove a page from Google search for specific queries or entirely. Each route has its own conditions.</p>
+<ul>
+<li>Right to be forgotten requests under GDPR art. 17, for outdated or excessive information linked to a person's name in the EU.</li>
+<li>Personal information requests, including Google's "Results about you" feature, for phone numbers, home addresses, ID documents and similar data.</li>
+<li>Non-consensual intimate images, doxxing content and images of minors, under Google's personal content policies.</li>
+<li>Copyright infringement notices, when your text or photos have been copied without permission.</li>
+<li>Defamation or other unlawful content, often supported by a court decision or a complaint under art. 595 of the Italian Criminal Code.</li>
+</ul>
+<p>Right-to-be-forgotten requests remove the result only for searches on the person's name and only on European versions of Google, as explained in our article on <a href="right-be-forgotten-eu-what-can-really-be-removed-google.html">what the right to be forgotten can remove</a>. If Google refuses, the next step in Italy is a complaint to the Garante per la protezione dei dati personali or a court action.</p>
+
+<h2>Choosing the right method</h2>
+<p>The fastest permanent result comes from combining a source-level change with the matching Google tool. The table summarises which option fits each situation.</p>
+<table>
+<thead><tr><th>Situation</th><th>Method</th><th>Permanent?</th></tr></thead>
+<tbody>
+<tr><td>Your page, no longer needed</td><td>Delete with 404/410, then Removals tool if urgent</td><td>Yes</td></tr>
+<tr><td>Your page, must stay accessible</td><td>noindex or password protection</td><td>Yes, while the directive stays</td></tr>
+<tr><td>Third-party page already changed</td><td>Refresh Outdated Content</td><td>Yes</td></tr>
+<tr><td>Third-party page, unlawful or personal data</td><td>Owner or host request, then Google legal form</td><td>Yes, if accepted</td></tr>
+<tr><td>Third-party page, lawful and current</td><td>No removal route; consider suppression</td><td>Not applicable</td></tr>
+</tbody>
+</table>
+<p>That last row matters: truthful, current information about a business usually cannot be removed, and the realistic strategy is pushing it down with stronger results, as described in our comparison of <a href="difference-between-removal-deindexing-and-ranking-suppression-search-results.html">removal, deindexing and suppression</a>. Remember also that Google URL removal does not affect Bing or other engines, which have their own tools. If several URLs are involved and you are unsure which route each requires, a <a href="../index.html#contact">free confidential audit</a> maps them one by one.</p>
+    </article>
+
+    <aside class="art-cta">
+      <div>
+        <h3>Want this handled for you?</h3>
+        <p>Free, confidential audit of your online reputation.</p>
+      </div>
+      <a class="btn btn-primary btn-lg" href="../index.html#contact">Book a free audit</a>
+    </aside>
+  </div>
+</body>
+</html>
