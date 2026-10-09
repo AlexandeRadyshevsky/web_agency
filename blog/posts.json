@@ -1,9 +1,30 @@
 [
   {
+    "slug": "remove-news-articles-from-google-italy",
+    "date": "2026-10-09",
+    "lang": "en",
+    "category": {
+      "en": "Removal",
+      "it": "Rimozione"
+    },
+    "cover": "",
+    "title": {
+      "en": "Removing an Old Newspaper Article from Google in Italy: What Actually Works",
+      "it": "Rimuovere un vecchio articolo di giornale da Google in Italia: cosa funziona davvero"
+    },
+    "excerpt": {
+      "en": "Publisher requests, rettifica, anonymisation and right-to-be-forgotten delisting: how to deal with an old or damaging news article in Italy and when each route works.",
+      "it": "Richiesta all'editore, rettifica, anonimizzazione e deindicizzazione: come gestire un articolo di giornale vecchio o dannoso in Italia e quando ogni strada funziona."
+    }
+  },
+  {
     "slug": "how-to-remove-negative-google-reviews",
     "date": "2026-07-15",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "How to remove a defamatory Google review (and what to do when you can't)",
@@ -18,7 +39,10 @@
     "slug": "why-people-believe-negative-reviews-more-positive-ones",
     "date": "2026-08-10",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "Why people believe negative reviews more than positive ones",
@@ -33,7 +57,10 @@
     "slug": "7-signs-reputational-attack-being-prepared-against-your-business",
     "date": "2026-08-11",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "7 signs a reputational attack is being prepared against your business",
@@ -48,7 +75,10 @@
     "slug": "online-reputation-doctors-and-clinics-special-risks",
     "date": "2026-08-12",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Online reputation for doctors and clinics: special risks",
@@ -63,7 +93,10 @@
     "slug": "how-many-customers-business-loses-due-12-negative-reviews",
     "date": "2026-08-13",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "How many customers a business loses because of 1–2 negative reviews",
@@ -78,7 +111,10 @@
     "slug": "negative-google-suggestions-company-name-complaint-scammers-how-remove-them",
     "date": "2026-08-13",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Negative Google Suggestions (\"Company Name + Complaint / Scammers\"): How to Remove Them",
@@ -93,7 +129,10 @@
     "slug": "deindexing-google-mechanism-success-cases-and-concrete-limits",
     "date": "2026-08-14",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Deindexing from Google: mechanism, success cases and concrete limits",
@@ -108,7 +147,10 @@
     "slug": "how-properly-respond-negative-review-without-making-situation-worse",
     "date": "2026-08-14",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "How to Properly Respond to a Negative Review Without Making the Situation Worse",
@@ -123,7 +165,10 @@
     "slug": "case-study-how-we-raised-trustpilot-rating-22-40",
     "date": "2026-08-15",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "Case study: how we raised a Trustpilot rating from 2.2 to 4.0",
@@ -138,7 +183,10 @@
     "slug": "how-protect-your-companys-online-reputation-problems-arise",
     "date": "2026-08-16",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "How to protect your company's online reputation before problems arise",
@@ -153,7 +201,10 @@
     "slug": "right-be-forgotten-eu-what-can-really-be-removed-google",
     "date": "2026-08-17",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Right to be forgotten in the EU: what can really be removed from Google",
@@ -168,7 +219,10 @@
     "slug": "practical-2026-guide-how-delete-negative-and-fake-reviews-google-maps-italy",
     "date": "2026-08-18",
     "lang": "it",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "Practical 2026 guide: how to delete negative and fake reviews on Google Maps in Italy",
@@ -183,7 +237,10 @@
     "slug": "what-do-if-former-employee-writes-bad-reviews-about-company",
     "date": "2026-08-19",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "What to do if a former employee writes bad reviews about the company",
@@ -198,7 +255,10 @@
     "slug": "can-you-delete-fake-reviews-trustpilot-and-how-do-it-legally",
     "date": "2026-08-20",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "Can you delete fake reviews on Trustpilot and how to do it legally",
@@ -213,7 +273,10 @@
     "slug": "reputation-vs-advertising-what-matters-more-sales-2026",
     "date": "2026-08-21",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Reputation vs advertising: what matters more for sales in 2026",
@@ -228,7 +291,10 @@
     "slug": "how-protect-reputation-it-company-and-startup",
     "date": "2026-08-22",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "How to protect the reputation of an IT company and startup",
@@ -243,7 +309,10 @@
     "slug": "reputation-crisis-caused-former-partner-real-case-breakdown",
     "date": "2026-08-23",
     "lang": "en",
-    "category": { "en": "Crisis Management", "it": "Gestione delle Crisi" },
+    "category": {
+      "en": "Crisis Management",
+      "it": "Gestione delle Crisi"
+    },
     "cover": "",
     "title": {
       "en": "Reputation Crisis Caused by a Former Partner: A Real Case Breakdown",
@@ -258,7 +327,10 @@
     "slug": "how-online-reputation-affects-company-value-and-investment-attractiveness",
     "date": "2026-08-24",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "How Online Reputation Affects Company Value and Investment Attractiveness",
@@ -273,7 +345,10 @@
     "slug": "reputation-risks-e-commerce-and-online-stores",
     "date": "2026-08-25",
     "lang": "en",
-    "category": { "en": "E-commerce", "it": "E-commerce" },
+    "category": {
+      "en": "E-commerce",
+      "it": "E-commerce"
+    },
     "cover": "",
     "title": {
       "en": "Reputation Risks for E-commerce and Online Stores",
@@ -288,7 +363,10 @@
     "slug": "difference-between-removal-deindexing-and-ranking-suppression-search-results",
     "date": "2026-08-26",
     "lang": "en",
-    "category": { "en": "Reputation Management", "it": "Gestione della Reputazione" },
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione della Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Difference Between Removal, Deindexing and Ranking Suppression in Search Results",
@@ -303,7 +381,10 @@
     "slug": "how-deal-negative-video-reviews-youtube-tiktok-and-instagram-reels",
     "date": "2026-09-02",
     "lang": "en",
-    "category": { "en": "Reputation", "it": "Reputazione" },
+    "category": {
+      "en": "Reputation",
+      "it": "Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "How to Deal with Negative Video Reviews on YouTube, TikTok and Instagram Reels",
@@ -318,7 +399,10 @@
     "slug": "platform-liability-third-party-content-what-changed-after-digital-services-act",
     "date": "2026-09-03",
     "lang": "en",
-    "category": { "en": "Legal", "it": "Legale" },
+    "category": {
+      "en": "Legal",
+      "it": "Legale"
+    },
     "cover": "",
     "title": {
       "en": "Platform Liability for Third-Party Content: What Changed After the Digital Services Act",
@@ -333,7 +417,10 @@
     "slug": "how-build-system-collecting-positive-reviews-without-violating-platform-rules",
     "date": "2026-09-04",
     "lang": "en",
-    "category": { "en": "Reviews", "it": "Recensioni" },
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
     "cover": "",
     "title": {
       "en": "How to Build a System for Collecting Positive Reviews Without Violating Platform Rules",
@@ -348,7 +435,10 @@
     "slug": "case-reputation-recovery-after-viral-negative-post-social-media",
     "date": "2026-09-07",
     "lang": "en",
-    "category": { "en": "Cases", "it": "Casi" },
+    "category": {
+      "en": "Cases",
+      "it": "Casi"
+    },
     "cover": "",
     "title": {
       "en": "Case: Reputation Recovery After a Viral Negative Post on Social Media",
@@ -363,7 +453,10 @@
     "slug": "how-ai-overviews-and-generative-search-are-changing-online-reputation-management",
     "date": "2026-09-08",
     "lang": "en",
-    "category": { "en": "AI & Reputation", "it": "IA e Reputazione" },
+    "category": {
+      "en": "AI & Reputation",
+      "it": "IA e Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "How AI Overviews and Generative Search Are Changing Online Reputation Management",
@@ -378,7 +471,10 @@
     "slug": "how-online-reputation-affects-employer-brand-and-employee-hiring",
     "date": "2026-09-09",
     "lang": "en",
-    "category": { "en": "Employer Brand", "it": "Employer Brand" },
+    "category": {
+      "en": "Employer Brand",
+      "it": "Employer Brand"
+    },
     "cover": "",
     "title": {
       "en": "How Online Reputation Affects Employer Brand and Employee Hiring",
@@ -393,7 +489,10 @@
     "slug": "online-reputation-management-orm-service-what-it-includes-how-it-works-and-who-needs-it",
     "date": "2026-09-10",
     "lang": "en",
-    "category": { "en": "Reputation Management", "it": "Gestione della Reputazione" },
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione della Reputazione"
+    },
     "cover": "",
     "title": {
       "en": "Online Reputation Management (ORM) Service: What It Includes, How It Works, and Who Needs It",
