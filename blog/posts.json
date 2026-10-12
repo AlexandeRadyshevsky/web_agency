@@ -1,5 +1,41 @@
 [
   {
+    "slug": "google-right-to-be-forgotten-form-step-by-step",
+    "date": "2026-10-12",
+    "lang": "en",
+    "category": {
+      "en": "Right to be forgotten",
+      "it": "Diritto all'oblio"
+    },
+    "cover": "",
+    "title": {
+      "en": "Google Right to Be Forgotten Form: A Step-by-Step Guide for Italy",
+      "it": "Modulo per il diritto all'oblio su Google: guida passo dopo passo"
+    },
+    "excerpt": {
+      "en": "How to prepare and fill in Google's right to be forgotten form in Italy: documents, field-by-field tips, arguments that work and what happens after you submit.",
+      "it": "Come preparare e compilare il modulo di Google per il diritto all'oblio: documenti, campi da compilare, argomentazioni efficaci e tempi di risposta in Italia."
+    }
+  },
+  {
+    "slug": "online-reputation-management-cost-italy",
+    "date": "2026-10-12",
+    "lang": "en",
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione reputazione"
+    },
+    "cover": "",
+    "title": {
+      "en": "How Much Does Online Reputation Management Cost in Italy?",
+      "it": "Quanto costa la gestione della reputazione online in Italia?"
+    },
+    "excerpt": {
+      "en": "Audit, monthly retainer or per-result fee: how reputation management is priced in Italy, what drives the cost and which quotes should make you walk away.",
+      "it": "Audit, canone mensile o pagamento a risultato: come si calcola il prezzo della gestione della reputazione online in Italia e quali preventivi evitare."
+    }
+  },
+  {
     "slug": "how-google-reviews-work-anonymous-local-guides",
     "date": "2026-10-09",
     "lang": "en",
