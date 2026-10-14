@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-14T11:45:00+02:00",
-    "slug": "ceo-executive-reputation-management",
-    "post": {
-      "slug": "ceo-executive-reputation-management",
-      "date": "2026-10-14",
-      "lang": "en",
-      "category": {
-        "en": "Personal & Executive",
-        "it": "Reputazione personale"
-      },
-      "cover": "",
-      "title": {
-        "en": "CEO and Executive Reputation Management: Protecting the Leader to Protect the Company",
-        "it": "Reputazione del CEO e dei manager: proteggere il leader per proteggere l'azienda"
-      },
-      "excerpt": {
-        "en": "Why a CEO's search results influence investors, partners and hires, which risks executives face online, and how to build an accurate, resilient search presence.",
-        "it": "Perché i risultati di ricerca sul CEO influenzano investitori, partner e candidati, quali rischi corrono i dirigenti online e come costruire una presenza solida e accurata."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-14T16:15:00+02:00",
-    "slug": "remove-address-phone-number-from-google",
-    "post": {
-      "slug": "remove-address-phone-number-from-google",
-      "date": "2026-10-14",
-      "lang": "en",
-      "category": {
-        "en": "Privacy",
-        "it": "Privacy"
-      },
-      "cover": "",
-      "title": {
-        "en": "How to Remove Your Home Address, Phone Number and Email from Google",
-        "it": "Come rimuovere indirizzo di casa, numero di telefono ed email da Google"
-      },
-      "excerpt": {
-        "en": "Google's \"Results about you\" tool, its personal information policy and GDPR erasure requests to websites: the practical route to taking your contact details out of search.",
-        "it": "Lo strumento \"Risultati che ti riguardano\", le regole di Google sui dati personali e le richieste GDPR ai siti: il percorso pratico per togliere i tuoi recapiti dalla ricerca."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-15T11:45:00+02:00",
     "slug": "right-to-be-forgotten-vs-freedom-of-press-italy",
     "post": {
