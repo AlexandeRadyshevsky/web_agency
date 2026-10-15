@@ -1,5 +1,41 @@
 [
   {
+    "slug": "hotel-online-reputation-management",
+    "date": "2026-10-15",
+    "lang": "en",
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
+    "cover": "",
+    "title": {
+      "en": "Hotel Online Reputation in Italy: Reviews, Replies and Ratings",
+      "it": "Reputazione online degli hotel in Italia: recensioni, risposte e punteggi"
+    },
+    "excerpt": {
+      "en": "How Italian hotels can manage reviews on Google, TripAdvisor and Booking.com, reply effectively and raise their rating at check-out within platform rules.",
+      "it": "Come gli hotel italiani possono gestire le recensioni su Google, TripAdvisor e Booking.com, rispondere bene agli ospiti e migliorare il punteggio nel rispetto delle regole."
+    }
+  },
+  {
+    "slug": "right-to-be-forgotten-vs-freedom-of-press-italy",
+    "date": "2026-10-15",
+    "lang": "en",
+    "category": {
+      "en": "Right to be forgotten",
+      "it": "Diritto all'oblio"
+    },
+    "cover": "",
+    "title": {
+      "en": "The Right to Be Forgotten and Freedom of the Press in Italy: Where the Line Falls",
+      "it": "Diritto all'oblio e diritto di cronaca in Italia: dove passa il confine"
+    },
+    "excerpt": {
+      "en": "How Italian courts balance the right to be forgotten against press freedom: public interest, time elapsed, public role and the remedies that leave news archives intact.",
+      "it": "Come i giudici italiani bilanciano diritto all'oblio e diritto di cronaca: interesse pubblico, tempo trascorso, ruolo pubblico e rimedi che preservano gli archivi."
+    }
+  },
+  {
     "slug": "remove-address-phone-number-from-google",
     "date": "2026-10-14",
     "lang": "en",
