@@ -1,5 +1,41 @@
 [
   {
+    "slug": "cartabia-reform-right-to-be-forgotten-acquittal",
+    "date": "2026-10-19",
+    "lang": "en",
+    "category": {
+      "en": "Right to be forgotten",
+      "it": "Diritto all'oblio"
+    },
+    "cover": "",
+    "title": {
+      "en": "Right to Be Forgotten After Acquittal: How the Cartabia Reform Works in Practice",
+      "it": "Assoluzione e archiviazione: come funziona il diritto all'oblio della Riforma Cartabia"
+    },
+    "excerpt": {
+      "en": "Acquitted or had your case dismissed? Art. 64-ter lets you obtain a court annotation that becomes the legal basis for deindexing news about the proceedings.",
+      "it": "Assolto o archiviato? L'art. 64-ter consente di ottenere un'annotazione in cancelleria che diventa la base per deindicizzare le notizie sul procedimento."
+    }
+  },
+  {
+    "slug": "reputation-crisis-first-48-hours",
+    "date": "2026-10-19",
+    "lang": "en",
+    "category": {
+      "en": "Crisis",
+      "it": "Crisi reputazionale"
+    },
+    "cover": "",
+    "title": {
+      "en": "Reputation Crisis Playbook: What to Do in the First 48 Hours",
+      "it": "Crisi reputazionale: cosa fare nelle prime 48 ore"
+    },
+    "excerpt": {
+      "en": "Who decides, what the holding statement says, how to monitor, which mistakes to avoid and what to document: a practical playbook for the first two days of a reputation crisis.",
+      "it": "Chi decide, cosa dire nella prima dichiarazione, come monitorare, quali errori evitare e cosa documentare: un piano pratico per i primi due giorni di una crisi reputazionale."
+    }
+  },
+  {
     "slug": "remove-images-from-google-search",
     "date": "2026-10-16",
     "lang": "en",
