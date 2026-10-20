@@ -1,5 +1,41 @@
 [
   {
+    "slug": "fix-incorrect-information-about-brand-in-chatgpt-ai",
+    "date": "2026-10-20",
+    "lang": "en",
+    "category": {
+      "en": "AI & Search",
+      "it": "AI e ricerca"
+    },
+    "cover": "",
+    "title": {
+      "en": "How to Fix Incorrect Information About Your Brand in ChatGPT and AI Search",
+      "it": "Come correggere le informazioni errate sul tuo brand in ChatGPT e nelle AI"
+    },
+    "excerpt": {
+      "en": "Why ChatGPT, Gemini, Perplexity and AI Overviews get facts about your company wrong, and how to correct the sources, use feedback tools and monitor AI answers.",
+      "it": "Perché ChatGPT, Gemini, Perplexity e AI Overviews riportano dati sbagliati sulla tua azienda e come correggere le fonti, usare i feedback e monitorare le risposte."
+    }
+  },
+  {
+    "slug": "disable-google-reviews-business-profile",
+    "date": "2026-10-20",
+    "lang": "en",
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
+    "cover": "",
+    "title": {
+      "en": "Can You Turn Off Google Reviews on Your Business Profile?",
+      "it": "Si possono disattivare le recensioni su Google Business Profile?"
+    },
+    "excerpt": {
+      "en": "There is no setting to switch off reviews on Google, and deleting the listing usually backfires. Here is what Italian businesses can legitimately do instead.",
+      "it": "Google non permette di disattivare le recensioni e cancellare la scheda spesso peggiora le cose. Ecco cosa possono fare legittimamente le attività italiane."
+    }
+  },
+  {
     "slug": "cartabia-reform-right-to-be-forgotten-acquittal",
     "date": "2026-10-19",
     "lang": "en",
