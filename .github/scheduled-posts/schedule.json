@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-21T11:45:00+02:00",
-    "slug": "remove-forum-posts-and-complaint-sites",
-    "post": {
-      "slug": "remove-forum-posts-and-complaint-sites",
-      "date": "2026-10-21",
-      "lang": "en",
-      "category": {
-        "en": "Removal",
-        "it": "Rimozione"
-      },
-      "cover": "",
-      "title": {
-        "en": "Removing Forum Threads and Complaint-Site Posts About Your Business",
-        "it": "Come eliminare thread di forum e post sui siti di reclami contro la tua azienda"
-      },
-      "excerpt": {
-        "en": "Moderator requests, site rules, DSA notices, legal routes and Google delisting: how to deal with forum threads and complaint-site posts about your business, and when to reply instead.",
-        "it": "Richieste ai moderatori, regolamenti, segnalazioni DSA, vie legali e deindicizzazione: come gestire thread nei forum e post sui siti di reclami, e quando conviene rispondere."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-21T16:15:00+02:00",
-    "slug": "online-reputation-lawyers-law-firms",
-    "post": {
-      "slug": "online-reputation-lawyers-law-firms",
-      "date": "2026-10-21",
-      "lang": "en",
-      "category": {
-        "en": "Reputation Management",
-        "it": "Gestione reputazione"
-      },
-      "cover": "",
-      "title": {
-        "en": "Online Reputation for Lawyers and Law Firms in Italy",
-        "it": "Reputazione online per avvocati e studi legali in Italia"
-      },
-      "excerpt": {
-        "en": "How Italian lawyers and law firms can manage reviews and search results while respecting the Bar's code of conduct, professional secrecy and the ban on soliciting clients.",
-        "it": "Come avvocati e studi legali possono gestire recensioni e risultati di ricerca nel rispetto del codice deontologico forense, del segreto professionale e del divieto di accaparramento."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-22T11:45:00+02:00",
     "slug": "web-reputation-analysis-how-to-audit",
     "post": {
