@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-22T11:45:00+02:00",
-    "slug": "web-reputation-analysis-how-to-audit",
-    "post": {
-      "slug": "web-reputation-analysis-how-to-audit",
-      "date": "2026-10-22",
-      "lang": "en",
-      "category": {
-        "en": "Monitoring",
-        "it": "Monitoraggio"
-      },
-      "cover": "",
-      "title": {
-        "en": "How to Analyse Your Web Reputation: A Step-by-Step Audit",
-        "it": "Come analizzare la propria reputazione online: un audit passo per passo"
-      },
-      "excerpt": {
-        "en": "Branded searches, page-one map, reviews, autocomplete, social channels and AI answers: a structured method to audit your web reputation, score sentiment and prioritise actions.",
-        "it": "Ricerche sul brand, mappa della prima pagina, recensioni, suggerimenti, social e risposte AI: un metodo strutturato per analizzare la reputazione online e decidere le priorità."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-22T16:15:00+02:00",
-    "slug": "garante-privacy-complaint-google-refuses-deindexing",
-    "post": {
-      "slug": "garante-privacy-complaint-google-refuses-deindexing",
-      "date": "2026-10-22",
-      "lang": "en",
-      "category": {
-        "en": "Right to be forgotten",
-        "it": "Diritto all'oblio"
-      },
-      "cover": "",
-      "title": {
-        "en": "Google Rejected Your Right to Be Forgotten Request: Garante Complaint and Other Options",
-        "it": "Google ha respinto la richiesta di oblio: reclamo al Garante e altre strade"
-      },
-      "excerpt": {
-        "en": "A refusal from Google is not the end of a delisting case. How to resubmit, when to file a complaint with the Garante Privacy and when a court claim makes more sense.",
-        "it": "Il rifiuto di Google non chiude la partita. Come ripresentare la richiesta, quando fare reclamo al Garante Privacy e quando conviene rivolgersi al tribunale."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-23T11:45:00+02:00",
     "slug": "restaurant-google-reviews-management",
     "post": {
