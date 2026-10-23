@@ -1,5 +1,41 @@
 [
   {
+    "slug": "remove-name-from-google-search-results",
+    "date": "2026-10-23",
+    "lang": "en",
+    "category": {
+      "en": "Removal",
+      "it": "Rimozione"
+    },
+    "cover": "",
+    "title": {
+      "en": "How to Remove Your Name from Google Search Results: What Can Go and What Stays",
+      "it": "Come togliere il proprio nome dai risultati di Google: cosa si può eliminare e cosa resta"
+    },
+    "excerpt": {
+      "en": "Which results about your name can be removed or delisted in Italy, which usually stay, and why removals work best when combined with building positive results.",
+      "it": "Quali risultati legati al tuo nome si possono rimuovere o deindicizzare in Italia, quali di solito restano e perché la rimozione funziona meglio insieme a contenuti positivi."
+    }
+  },
+  {
+    "slug": "restaurant-google-reviews-management",
+    "date": "2026-10-23",
+    "lang": "en",
+    "category": {
+      "en": "Reviews",
+      "it": "Recensioni"
+    },
+    "cover": "",
+    "title": {
+      "en": "How Restaurants in Italy Should Manage Google Reviews",
+      "it": "Come gestire le recensioni Google di un ristorante in Italia"
+    },
+    "excerpt": {
+      "en": "Seasonal swings, tourist complaints and threats of one-star reviews for a free meal: a practical approach to Google reviews for Italian restaurants.",
+      "it": "Picchi stagionali, lamentele dei turisti e minacce di una stella in cambio di un pasto gratis: come gestire le recensioni Google di un ristorante."
+    }
+  },
+  {
     "slug": "garante-privacy-complaint-google-refuses-deindexing",
     "date": "2026-10-22",
     "lang": "en",
