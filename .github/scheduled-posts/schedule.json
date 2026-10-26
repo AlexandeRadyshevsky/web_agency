@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-26T11:45:00+01:00",
-    "slug": "negative-press-management",
-    "post": {
-      "slug": "negative-press-management",
-      "date": "2026-10-26",
-      "lang": "en",
-      "category": {
-        "en": "Crisis",
-        "it": "Crisi reputazionale"
-      },
-      "cover": "",
-      "title": {
-        "en": "Managing Negative Press: How to Respond to a Critical Article in Italy",
-        "it": "Gestione della stampa negativa: come reagire a un articolo critico"
-      },
-      "excerpt": {
-        "en": "How to assess a critical article, request a correction under art. 8 of the Italian press law, work with journalists, decide when to stay silent and handle follow-up coverage.",
-        "it": "Come valutare un articolo critico, chiedere la rettifica ai sensi dell'art. 8 della legge sulla stampa, dialogare con i giornalisti e capire quando è meglio non rispondere."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-26T16:15:00+01:00",
-    "slug": "online-reputation-monitoring-tools-and-process",
-    "post": {
-      "slug": "online-reputation-monitoring-tools-and-process",
-      "date": "2026-10-26",
-      "lang": "en",
-      "category": {
-        "en": "Monitoring",
-        "it": "Monitoraggio"
-      },
-      "cover": "",
-      "title": {
-        "en": "Online Reputation Monitoring: Tools, Alert Thresholds and a Weekly Routine",
-        "it": "Monitoraggio della reputazione online: strumenti, soglie di allerta e routine settimanale"
-      },
-      "excerpt": {
-        "en": "How to set up online reputation monitoring for an Italian company: what to watch, which free and paid tools to use, how to set alert thresholds and a weekly routine.",
-        "it": "Come impostare il monitoraggio della reputazione online in un'azienda italiana: cosa controllare, strumenti gratuiti e a pagamento, soglie di allerta e una routine settimanale."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-27T11:45:00+01:00",
     "slug": "defamation-on-social-media-remove-posts",
     "post": {
