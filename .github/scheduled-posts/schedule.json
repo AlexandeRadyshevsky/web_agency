@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-27T11:45:00+01:00",
-    "slug": "defamation-on-social-media-remove-posts",
-    "post": {
-      "slug": "defamation-on-social-media-remove-posts",
-      "date": "2026-10-27",
-      "lang": "en",
-      "category": {
-        "en": "Defamation",
-        "it": "Diffamazione"
-      },
-      "cover": "",
-      "title": {
-        "en": "Defamatory Posts on Facebook, Instagram, LinkedIn and X: How to Get Them Removed",
-        "it": "Post diffamatori su Facebook, Instagram, LinkedIn e X: come farli rimuovere"
-      },
-      "excerpt": {
-        "en": "How to preserve evidence, use the platforms' legal and DSA reporting forms, and turn to Italian courts when defamatory posts on social networks stay online.",
-        "it": "Come conservare le prove, usare i moduli legali e DSA delle piattaforme e rivolgersi ai giudici italiani quando i post diffamatori sui social restano online."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-27T16:15:00+01:00",
-    "slug": "high-net-worth-individuals-reputation-and-privacy",
-    "post": {
-      "slug": "high-net-worth-individuals-reputation-and-privacy",
-      "date": "2026-10-27",
-      "lang": "en",
-      "category": {
-        "en": "Personal & Executive",
-        "it": "Reputazione personale"
-      },
-      "cover": "",
-      "title": {
-        "en": "Reputation and Privacy Management for High-Net-Worth Individuals",
-        "it": "Reputazione e privacy per persone ad alto patrimonio e clienti privati"
-      },
-      "excerpt": {
-        "en": "For wealthy individuals and families, reputation work is mostly about exposure: what can be found, who can be impersonated and how to watch quietly without drawing attention.",
-        "it": "Per persone e famiglie facoltose la reputazione è soprattutto una questione di esposizione: cosa si trova online, chi può essere impersonato e come vigilare con discrezione."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-28T11:45:00+01:00",
     "slug": "remove-url-from-google-all-methods",
     "post": {
