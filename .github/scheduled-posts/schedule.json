@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-28T11:45:00+01:00",
-    "slug": "remove-url-from-google-all-methods",
-    "post": {
-      "slug": "remove-url-from-google-all-methods",
-      "date": "2026-10-28",
-      "lang": "en",
-      "category": {
-        "en": "Removal",
-        "it": "Rimozione"
-      },
-      "cover": "",
-      "title": {
-        "en": "How to Remove a URL from Google: Every Method and When to Use It",
-        "it": "Come rimuovere un URL da Google: tutti i metodi e quando usarli"
-      },
-      "excerpt": {
-        "en": "Deletion with 404 or 410, noindex, the Search Console Removals tool, Refresh Outdated Content and legal requests: which method removes a URL from Google in each case.",
-        "it": "Cancellazione con 404 o 410, noindex, strumento Rimozioni di Search Console, contenuti obsoleti e richieste legali: quale metodo usare per ogni caso."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-28T16:15:00+01:00",
-    "slug": "right-to-be-forgotten-damages-and-sanctions",
-    "post": {
-      "slug": "right-to-be-forgotten-damages-and-sanctions",
-      "date": "2026-10-28",
-      "lang": "en",
-      "category": {
-        "en": "Right to be forgotten",
-        "it": "Diritto all'oblio"
-      },
-      "cover": "",
-      "title": {
-        "en": "Right to Be Forgotten Damages and Sanctions in Italy",
-        "it": "Diritto all'oblio: risarcimento danni e sanzioni in Italia"
-      },
-      "excerpt": {
-        "en": "When you can claim compensation for a breach of the right to be forgotten in Italy, how Garante fines work and what evidence of harm courts expect to see.",
-        "it": "Quando si può chiedere il risarcimento per la violazione del diritto all'oblio in Italia, come funzionano le sanzioni del Garante e quali prove del danno servono."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-29T11:45:00+01:00",
     "slug": "seo-and-online-reputation-management",
     "post": {
