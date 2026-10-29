@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-10-29T11:45:00+01:00",
-    "slug": "seo-and-online-reputation-management",
-    "post": {
-      "slug": "seo-and-online-reputation-management",
-      "date": "2026-10-29",
-      "lang": "en",
-      "category": {
-        "en": "Reputation Management",
-        "it": "Gestione reputazione"
-      },
-      "cover": "",
-      "title": {
-        "en": "How SEO and Online Reputation Management Work Together",
-        "it": "Come SEO e gestione della reputazione online lavorano insieme"
-      },
-      "excerpt": {
-        "en": "Branded search, owned assets, entity signals and content planning: how SEO methods and reputation management combine to protect the first page of results for your brand.",
-        "it": "Ricerca del brand, asset proprietari, entità e contenuti: come SEO e gestione della reputazione online si combinano per proteggere la prima pagina di Google."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-10-29T16:15:00+01:00",
-    "slug": "public-figures-influencers-reputation",
-    "post": {
-      "slug": "public-figures-influencers-reputation",
-      "date": "2026-10-29",
-      "lang": "en",
-      "category": {
-        "en": "Personal & Executive",
-        "it": "Reputazione personale"
-      },
-      "cover": "",
-      "title": {
-        "en": "Reputation Management for Public Figures and Influencers",
-        "it": "Gestione della reputazione per personaggi pubblici e influencer"
-      },
-      "excerpt": {
-        "en": "How public figures and influencers in Italy can handle scrutiny, old posts, fake accounts, brand partnerships and viral criticism without making things worse.",
-        "it": "Come personaggi pubblici e influencer in Italia possono gestire esposizione mediatica, vecchi post, profili falsi, collaborazioni con i brand e critiche virali."
-      }
-    }
-  },
-  {
     "publish_at": "2026-10-30T11:45:00+01:00",
     "slug": "delete-google-history-vs-removing-yourself-from-google",
     "post": {
