@@ -1,5 +1,41 @@
 [
   {
+    "slug": "reputational-risk-management-for-companies",
+    "date": "2026-10-30",
+    "lang": "en",
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione reputazione"
+    },
+    "cover": "",
+    "title": {
+      "en": "Reputational Risk Management: How Companies Map, Score and Control Reputation Risks",
+      "it": "Gestione del rischio reputazionale: come mappare, valutare e controllare i rischi"
+    },
+    "excerpt": {
+      "en": "A practical method for Italian companies: identify where reputational risk comes from, score it by likelihood and impact, put prevention controls in place and give each risk an owner.",
+      "it": "Un metodo pratico per le aziende italiane: individuare da dove nasce il rischio reputazionale, valutarlo per probabilità e impatto, introdurre controlli e assegnare un responsabile."
+    }
+  },
+  {
+    "slug": "delete-google-history-vs-removing-yourself-from-google",
+    "date": "2026-10-30",
+    "lang": "en",
+    "category": {
+      "en": "Privacy",
+      "it": "Privacy"
+    },
+    "cover": "",
+    "title": {
+      "en": "Deleting Your Google History vs Removing Yourself from Google: What Each One Does",
+      "it": "Cancellare la cronologia di Google o rimuovere informazioni su di sé: le differenze"
+    },
+    "excerpt": {
+      "en": "Clearing your search and Chrome history protects your privacy but does not change what others find about you. How each works, and what to do when the problem is public content.",
+      "it": "Cancellare la cronologia di ricerca e di Chrome tutela la privacy ma non cambia ciò che gli altri trovano su di te. Come funzionano le due cose e cosa fare con i contenuti pubblici."
+    }
+  },
+  {
     "slug": "public-figures-influencers-reputation",
     "date": "2026-10-29",
     "lang": "en",
