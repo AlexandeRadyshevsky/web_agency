@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-11-02T11:45:00+01:00",
-    "slug": "how-to-delete-your-own-google-review",
-    "post": {
-      "slug": "how-to-delete-your-own-google-review",
-      "date": "2026-11-02",
-      "lang": "en",
-      "category": {
-        "en": "Reviews",
-        "it": "Recensioni"
-      },
-      "cover": "",
-      "title": {
-        "en": "How to Delete or Edit Your Own Google Review",
-        "it": "Come cancellare una propria recensione su Google o modificarla"
-      },
-      "excerpt": {
-        "en": "Step-by-step instructions to edit or delete a review you wrote on Google from a computer, Android or iPhone, what happens next and the rules when a business asks you to change it.",
-        "it": "Come modificare o eliminare una recensione che hai scritto su Google da PC, Android o iPhone, cosa succede dopo e quali regole valgono se un'attività te lo chiede."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-11-02T16:15:00+01:00",
-    "slug": "right-to-be-forgotten-facebook-social-networks",
-    "post": {
-      "slug": "right-to-be-forgotten-facebook-social-networks",
-      "date": "2026-11-02",
-      "lang": "en",
-      "category": {
-        "en": "Right to be forgotten",
-        "it": "Diritto all'oblio"
-      },
-      "cover": "",
-      "title": {
-        "en": "Right to Be Forgotten on Facebook, Instagram and Social Networks",
-        "it": "Diritto all'oblio su Facebook, Instagram e social network"
-      },
-      "excerpt": {
-        "en": "How to delete your own data, remove content others posted about you, handle a deceased person's account and file GDPR erasure requests with Meta in Italy.",
-        "it": "Come cancellare i propri dati, rimuovere contenuti pubblicati da altri, gestire il profilo di una persona defunta e inviare richieste di cancellazione GDPR a Meta."
-      }
-    }
-  },
-  {
     "publish_at": "2026-11-03T11:45:00+01:00",
     "slug": "personal-online-reputation-for-professionals",
     "post": {
