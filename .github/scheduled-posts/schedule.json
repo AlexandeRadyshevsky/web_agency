@@ -1,49 +1,5 @@
 [
   {
-    "publish_at": "2026-11-03T11:45:00+01:00",
-    "slug": "personal-online-reputation-for-professionals",
-    "post": {
-      "slug": "personal-online-reputation-for-professionals",
-      "date": "2026-11-03",
-      "lang": "en",
-      "category": {
-        "en": "Personal & Executive",
-        "it": "Reputazione personale"
-      },
-      "cover": "",
-      "title": {
-        "en": "Owning Page One for Your Name: Personal Online Reputation for Professionals",
-        "it": "La prima pagina di Google sul tuo nome: reputazione personale online per professionisti"
-      },
-      "excerpt": {
-        "en": "How consultants, architects, accountants and freelancers in Italy can own page one for their name with LinkedIn, a personal website, consistent listings and publications.",
-        "it": "Come consulenti, architetti, commercialisti e freelance possono presidiare la prima pagina di Google sul proprio nome con LinkedIn, un sito personale, profili coerenti e pubblicazioni."
-      }
-    }
-  },
-  {
-    "publish_at": "2026-11-03T16:15:00+01:00",
-    "slug": "remove-personal-data-from-data-brokers-europe",
-    "post": {
-      "slug": "remove-personal-data-from-data-brokers-europe",
-      "date": "2026-11-03",
-      "lang": "en",
-      "category": {
-        "en": "Privacy",
-        "it": "Privacy"
-      },
-      "cover": "",
-      "title": {
-        "en": "How to Remove Your Personal Data from Data Broker and People-Search Sites",
-        "it": "Come rimuovere i propri dati personali da data broker ed elenchi online"
-      },
-      "excerpt": {
-        "en": "People-search sites and data brokers in Europe must respect the GDPR. How to find your data, send erasure and objection requests, escalate to the Garante and keep it off.",
-        "it": "Data broker ed elenchi online devono rispettare il GDPR. Come trovare i propri dati, inviare richieste di cancellazione e opposizione e coinvolgere il Garante."
-      }
-    }
-  },
-  {
     "publish_at": "2026-11-04T11:45:00+01:00",
     "slug": "defamation-vs-criticism-what-can-be-removed",
     "post": {
