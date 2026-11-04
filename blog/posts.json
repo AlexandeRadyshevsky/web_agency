@@ -1,5 +1,41 @@
 [
   {
+    "slug": "small-business-online-reputation-italy",
+    "date": "2026-11-04",
+    "lang": "en",
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione reputazione"
+    },
+    "cover": "",
+    "title": {
+      "en": "Online Reputation for Small Businesses in Italy: Where to Start on a Limited Budget",
+      "it": "Reputazione online per piccole imprese: da dove partire con un budget limitato"
+    },
+    "excerpt": {
+      "en": "Priorities, a 30-minute weekly routine and the platforms that matter by sector: how an Italian SME can manage its reputation without a dedicated team or large budget.",
+      "it": "Priorità, una routine di mezz'ora a settimana e le piattaforme che contano per settore: come una PMI italiana può gestire la reputazione senza un team dedicato."
+    }
+  },
+  {
+    "slug": "defamation-vs-criticism-what-can-be-removed",
+    "date": "2026-11-04",
+    "lang": "en",
+    "category": {
+      "en": "Defamation",
+      "it": "Diffamazione"
+    },
+    "cover": "",
+    "title": {
+      "en": "Defamation or Legitimate Criticism? What Can Be Removed Online in Italy",
+      "it": "Diffamazione o diritto di critica? Cosa si può rimuovere online in Italia"
+    },
+    "excerpt": {
+      "en": "Truth, measured language and relevance: how Italian law separates defamation from honest criticism and opinion, with clear examples of what platforms and courts remove.",
+      "it": "Verità, continenza e pertinenza: come la legge italiana distingue la diffamazione dalla critica legittima, con esempi chiari di ciò che piattaforme e tribunali rimuovono."
+    }
+  },
+  {
     "slug": "remove-personal-data-from-data-brokers-europe",
     "date": "2026-11-03",
     "lang": "en",
