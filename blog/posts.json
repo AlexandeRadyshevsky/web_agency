@@ -1,5 +1,41 @@
 [
   {
+    "slug": "politicians-public-administration-web-reputation",
+    "date": "2026-11-05",
+    "lang": "en",
+    "category": {
+      "en": "Reputation Management",
+      "it": "Gestione reputazione"
+    },
+    "cover": "",
+    "title": {
+      "en": "Web Reputation for Politicians and Public Administration in Italy",
+      "it": "Web reputation per politici e pubblica amministrazione in Italia"
+    },
+    "excerpt": {
+      "en": "How politicians and Italian public bodies can handle criticism, disinformation and impersonation online, and what transparency rules keep permanently public.",
+      "it": "Come politici ed enti pubblici italiani possono gestire critiche, disinformazione online e profili falsi, e quali informazioni restano pubbliche per obbligo di trasparenza."
+    }
+  },
+  {
+    "slug": "deindex-page-or-website-noindex-guide",
+    "date": "2026-11-05",
+    "lang": "en",
+    "category": {
+      "en": "Removal",
+      "it": "Rimozione"
+    },
+    "cover": "",
+    "title": {
+      "en": "How to Deindex a Page or an Entire Website You Control",
+      "it": "Come deindicizzare una pagina o un intero sito che gestisci"
+    },
+    "excerpt": {
+      "en": "Noindex tags, the X-Robots-Tag header, the robots.txt trap, sitemaps and Search Console checks: how to deindex your own pages or website correctly.",
+      "it": "Tag noindex, header X-Robots-Tag, l'errore del robots.txt, sitemap e verifiche in Search Console: come deindicizzare correttamente pagine o un intero sito."
+    }
+  },
+  {
     "slug": "small-business-online-reputation-italy",
     "date": "2026-11-04",
     "lang": "en",
